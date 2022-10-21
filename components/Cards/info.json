@@ -1,6 +1,44 @@
 [
   {
-    "name": "Mahsa Amini",
-    "image": ""
+    "name": "مهسا امینی",
+    "image": "mahsa-amini.webp",
+    "timer": { "start": "2000-09-20", "text": "مهسا امروز چند ساله بود؟" },
+    "status": "killed"
+  },
+  {
+    "name": "نیکا شاکرمی",
+    "image": "nika-shahkarami.webp",
+    "timer": { "start": "2005-09-23", "text": "نیکا امروز چند ساله بود؟" },
+    "status": "killed"
+  },
+  {
+    "name": "حسین رونقی",
+    "image": "hosein-ronaghi.jpg",
+    "timer": { "start": "2022-09-30", "text": "چند وقته حسین آزاد نیست؟" },
+    "status": "prison"
+  },
+  {
+    "name": "سارینا اسماعیل‌زاده",
+    "image": "sarina-esmaeilzadeh.jpg",
+    "timer": { "start": "2006-07-02", "text": "سارینا امروز چند ساله بود؟" },
+    "status": "killed"
+  },
+  {
+    "name": "اسرا پناهی",
+    "image": "Asra_Panahi.jpg",
+    "timer": { "start": "2022-10-11", "text": "چند وقته اسرا گمشده است؟" },
+    "status": "lost"
+  },
+  {
+    "name": "فاطمه سپهری",
+    "image": "fateme-sepehri.png",
+    "timer": { "start": "2022-10-01", "text": "چند وقته فاطمه آزاد نیست؟" },
+    "status": "prison"
+  },
+  {
+    "name": "جادی",
+    "image": "jadi.jpeg",
+    "timer": { "start": "2022-10-05", "text": "چند وقته جادی آزاد نیست؟" },
+    "status": "prison"
   }
 ]

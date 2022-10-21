@@ -1,35 +1,34 @@
-import React from "react";
-import profilePic from "../../public/images/nika-shahkarami.webp";
-import Card from "./Card";
+import { useEffect, useState } from "react";
+import Card, { CardStatus } from "./Card";
+import data from "./info.json";
 
 const Cards = () => {
+  const [time, setTime] = useState(new Date().getTime());
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date().getTime());
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const components = data.map((card) => {
+    return (
+      <Card
+        key={card.name}
+        name={card.name}
+        image={`/images/${card.image}`}
+        timer={{
+          seconds: Math.floor(
+            (time - new Date(card.timer.start).getTime()) / 1000
+          ),
+          text: card.timer.text,
+        }}
+        status={card.status as CardStatus}
+      />
+    );
+  });
   return (
-    <div className="flex justify-center gap-4 flex-wrap">
-      <Card
-        name="Mahsa Amini"
-        image={profilePic}
-        timer={{
-          seconds: 16 * 365 * 24 * 60 * 60 + 4635874,
-          text: "She was at this age",
-        }}
-        status="alive"
-      />
-      <Card
-        name="Mahsa Amini"
-        image={profilePic}
-        timer={{ seconds: 1 * 365 * 24 * 60 * 60 - 4635874, text: "In prison" }}
-        status="not-alive"
-      />
-      <Card
-        name="Mahsa Amini"
-        image={profilePic}
-        timer={{
-          seconds: 16 * 365 * 24 * 60 * 60 + 4635874,
-          text: "Her age if they let her",
-        }}
-        status="not-alive"
-      />
-    </div>
+    <div className={`flex gap-16  flex-wrap justify-center`}>{components}</div>
   );
 };
 
