@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import Cards from "../components/Cards";
 import styles from "../styles/Home.module.css";
 
@@ -16,6 +17,25 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className="mb-10">
+          <Image
+            className="rounded-50p"
+            alt=""
+            src="/images/logo.jpg"
+            width={300}
+            height={300}
+          />
+        </div>
+        <div className="mb-20 text-center">
+          میتوانید اطلاعات دیگر افراد کشته و یا دستگیر شده را از طریق این{" "}
+          <a
+            className="underline text-green-700"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSer8D2aL160OZEz-PYKXqKNkx1MFyOyxubtfKdVyA1cxDo1Uw/viewform?usp=sf_link"
+          >
+            گوگل فرم
+          </a>{" "}
+          به صورت ناشناس برای ما ارسال نمایید
+        </div>
         <Cards />
       </main>
     </div>
