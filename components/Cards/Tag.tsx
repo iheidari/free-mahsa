@@ -1,6 +1,6 @@
-import Killed from "../Icons/killed";
-import Lost from "../Icons/lost";
-import Prison from "../Icons/prison";
+import Killed from "../Icons/Killed";
+import Lost from "../Icons/Lost";
+import Prison from "../Icons/Prison";
 import { CardStatus } from "./Card";
 
 type Props = {
