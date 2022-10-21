@@ -1,6 +1,6 @@
 const Lost = () => {
   return (
-    <svg width="100%" height="100%" viewBox="0 0 51 15" fill="none">
+    <svg width="100%" height="100%" viewBox="0 0 51 15" fill="rgba(0,0,0,0.3)">
       <rect
         x="0.4"
         y="0.4"

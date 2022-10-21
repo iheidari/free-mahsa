@@ -2,43 +2,71 @@
   {
     "name": "مهسا امینی",
     "image": "mahsa-amini.webp",
-    "timer": { "start": "2000-09-20", "text": "مهسا امروز چند ساله بود؟" },
-    "status": "killed"
+    "timer": {
+      "start": "2000-09-20T13:10:40",
+      "text": "مهسا امروز چند ساله بود؟"
+    },
+    "status": "killed",
+    "link": "https://fa.wikipedia.org/wiki/%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C"
   },
   {
     "name": "نیکا شاکرمی",
     "image": "nika-shahkarami.webp",
-    "timer": { "start": "2005-09-23", "text": "نیکا امروز چند ساله بود؟" },
-    "status": "killed"
+    "timer": {
+      "start": "2005-09-23T06:01:51",
+      "text": "نیکا امروز چند ساله بود؟"
+    },
+    "status": "killed",
+    "link": "https://fa.wikipedia.org/wiki/%D9%86%DB%8C%DA%A9%D8%A7_%D8%B4%D8%A7%DA%A9%D8%B1%D9%85%DB%8C"
   },
   {
     "name": "حسین رونقی",
     "image": "hosein-ronaghi.jpg",
-    "timer": { "start": "2022-09-30", "text": "چند وقته حسین آزاد نیست؟" },
-    "status": "prison"
+    "timer": {
+      "start": "2022-09-24T10:19:05",
+      "text": "چند وقته حسین آزاد نیست؟"
+    },
+    "status": "prison",
+    "link": "https://fa.wikipedia.org/wiki/%D8%AD%D8%B3%DB%8C%D9%86_%D8%B1%D9%88%D9%86%D9%82%DB%8C"
   },
   {
     "name": "سارینا اسماعیل‌زاده",
     "image": "sarina-esmaeilzadeh.jpg",
-    "timer": { "start": "2006-07-02", "text": "سارینا امروز چند ساله بود؟" },
-    "status": "killed"
+    "timer": {
+      "start": "2006-07-02T22:10:43",
+      "text": "سارینا امروز چند ساله بود؟"
+    },
+    "status": "killed",
+    "link": "https://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D8%B1%DB%8C%D9%86%D8%A7_%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%DB%8C%D9%84%E2%80%8C%D8%B2%D8%A7%D8%AF%D9%87"
   },
   {
     "name": "اسرا پناهی",
     "image": "Asra_Panahi.jpg",
-    "timer": { "start": "2022-10-11", "text": "چند وقته اسرا گمشده است؟" },
-    "status": "lost"
+    "timer": {
+      "start": "2007-03-05T02:03:09",
+      "text": "اسرا امروز چند ساله بود؟"
+    },
+    "status": "killed",
+    "link": "https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D8%B1%D8%A7%D8%A1_%D9%BE%D9%86%D8%A7%D9%87%DB%8C"
   },
   {
     "name": "فاطمه سپهری",
     "image": "fateme-sepehri.png",
-    "timer": { "start": "2022-10-01", "text": "چند وقته فاطمه آزاد نیست؟" },
-    "status": "prison"
+    "timer": {
+      "start": "2022-09-21T16:21:10",
+      "text": "چند وقته فاطمه آزاد نیست؟"
+    },
+    "status": "prison",
+    "link": "https://fa.wikipedia.org/wiki/%D9%81%D8%A7%D8%B7%D9%85%D9%87_%D8%B3%D9%BE%D9%87%D8%B1%DB%8C"
   },
   {
     "name": "جادی",
     "image": "jadi.jpeg",
-    "timer": { "start": "2022-10-05", "text": "چند وقته جادی آزاد نیست؟" },
-    "status": "prison"
+    "timer": {
+      "start": "2022-10-05T14:10:43",
+      "text": "چند وقته جادی آزاد نیست؟"
+    },
+    "status": "prison",
+    "link": "https://fa.wikipedia.org/wiki/%D8%AC%D8%A7%D8%AF%DB%8C_%D9%85%DB%8C%D8%B1%D9%85%DB%8C%D8%B1%D8%A7%D9%86%DB%8C"
   }
 ]

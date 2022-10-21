@@ -1,6 +1,0 @@
-.container {
-  grid-template-columns: repeat(3, calc(33.3333% - 53.3333px));
-  min-height: 656px;
-  grid-auto-columns: calc(33.3333% - 53.3333px);
-  grid-gap: 80px;
-}

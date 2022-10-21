@@ -24,6 +24,7 @@ const Cards = () => {
           text: card.timer.text,
         }}
         status={card.status as CardStatus}
+        link={card.link}
       />
     );
   });

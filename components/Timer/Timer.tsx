@@ -17,7 +17,7 @@ const Timer = ({ timer }: Props) => {
   );
 
   return (
-    <div className="absolute bottom-4 z-10 w-full p-2 rtl:">
+    <div className="absolute bottom-4 z-10 w-full p-2" dir="ltr">
       <div className="pb-1">{timer.text}</div>
 
       <div className="flex justify-around text-center">
