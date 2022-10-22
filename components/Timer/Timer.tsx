@@ -22,7 +22,7 @@ const Timer = ({ timer }: Props) => {
 
       <div className="flex justify-around text-center">
         {!!years && <Part value={years} title="سال" />}
-        {!!years && !!months && <Part value={months} title="ماه" />}
+        {(!!years || !!months) && <Part value={months} title="ماه" />}
         <Part value={days} title="روز" />
         <Part value={hours} title="ساعت" />
         <Part value={minutes} title="دقیقه" />
