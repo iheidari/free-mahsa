@@ -4,9 +4,10 @@ const DAY_IN_SECONDS = 24 * 60 * 60;
 const HOUR_IN_SECONDS = 60 * 60;
 const MINUTE_IN_SECONDS = 60;
 export const secondsToTime = (seconds: number) => {
-  const years = Math.floor(seconds / YEAR_IN_SECONDS);
+  let rest = seconds;
+  const years = Math.floor(rest / YEAR_IN_SECONDS);
 
-  let rest = seconds % YEAR_IN_SECONDS;
+  rest = rest % YEAR_IN_SECONDS;
   const months = Math.floor(rest / MONTH_IN_SECONDS);
 
   rest = rest % MONTH_IN_SECONDS;

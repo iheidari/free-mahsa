@@ -6,7 +6,8 @@ const Cards = () => {
   const [time, setTime] = useState(new Date().getTime());
   useEffect(() => {
     const interval = setInterval(() => {
-      setTime(new Date().getTime());
+      const timeMs = new Date().getTime();
+      setTime(timeMs);
     }, 1000);
     return () => clearInterval(interval);
   }, []);
