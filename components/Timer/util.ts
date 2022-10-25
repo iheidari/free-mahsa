@@ -3,23 +3,29 @@ const MONTH_IN_SECONDS = 30 * 24 * 60 * 60;
 const DAY_IN_SECONDS = 24 * 60 * 60;
 const HOUR_IN_SECONDS = 60 * 60;
 const MINUTE_IN_SECONDS = 60;
-export const secondsToTime = (seconds: number) => {
-  let rest = seconds;
-  const years = Math.floor(rest / YEAR_IN_SECONDS);
 
-  rest = rest % YEAR_IN_SECONDS;
-  const months = Math.floor(rest / MONTH_IN_SECONDS);
+export const secondsToTime = (totalSeconds: number) => {
+  let rest = totalSeconds;
+  let mod = rest % YEAR_IN_SECONDS;
+  const years = (rest - mod) / YEAR_IN_SECONDS;
 
-  rest = rest % MONTH_IN_SECONDS;
-  const days = Math.floor(rest / DAY_IN_SECONDS);
+  rest = mod;
+  mod = rest % MONTH_IN_SECONDS;
+  const months = (rest - mod) / MONTH_IN_SECONDS;
 
-  rest = rest % DAY_IN_SECONDS;
-  const hours = Math.floor(rest / HOUR_IN_SECONDS);
+  rest = mod;
+  mod = rest % DAY_IN_SECONDS;
+  const days = (rest - mod) / DAY_IN_SECONDS;
 
-  rest = rest % HOUR_IN_SECONDS;
-  const minutes = Math.floor(rest / MINUTE_IN_SECONDS);
+  rest = mod;
+  mod = rest % HOUR_IN_SECONDS;
+  const hours = (rest - mod) / HOUR_IN_SECONDS;
 
-  seconds = rest % MINUTE_IN_SECONDS;
+  rest = mod;
+  mod = rest % MINUTE_IN_SECONDS;
+  const minutes = (rest - mod) / MINUTE_IN_SECONDS;
+
+  const seconds = mod;
 
   return { years, months, days, hours, minutes, seconds };
 };

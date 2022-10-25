@@ -21,8 +21,8 @@ const Timer = ({ timer }: Props) => {
       <div className="pb-1">{timer.text}</div>
 
       <div className="flex justify-around text-center">
-        {!!years && <Part value={years} title="سال" />}
-        {(!!years || !!months) && <Part value={months} title="ماه" />}
+        {years > 0 && <Part value={years} title="سال" />}
+        {(years > 0 || months > 0) && <Part value={months} title="ماه" />}
         <Part value={days} title="روز" />
         <Part value={hours} title="ساعت" />
         <Part value={minutes} title="دقیقه" />
