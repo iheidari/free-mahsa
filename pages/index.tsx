@@ -2,9 +2,14 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Cards from "../components/Cards";
+import { sanityApi } from "../helpers/api";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+type HomeProps = {
+  rawData?: any;
+};
+
+const Home: NextPage = ({ rawData }: HomeProps) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -36,10 +41,38 @@ const Home: NextPage = () => {
           </a>{" "}
           به صورت ناشناس برای ما ارسال نمایید
         </div>
-        <Cards />
+        <Cards rawData={rawData} />
       </main>
     </div>
   );
 };
+
+const query = encodeURIComponent(`*[_type=="person"]{
+  _createdAt,
+  _id, 
+  _updatedAt,
+  birthDate,
+  isAlive,  
+  nameFa,
+  arrestDate,
+  killedDate,
+  sloganFa,
+  url1,
+  url2,
+  image1{asset->{path,url}},
+ image2{asset->{path,url}},
+  image3{asset->{path,url}}, 
+  descriptionFa
+}`);
+
+export async function getStaticProps() {
+  const result = await sanityApi.get(`/data/query/production?query=${query}`);
+  if (result.status === 200) {
+    return { props: { rawData: result.data.result } };
+  }
+  return {
+    props: { props: { rawData: [] } }, // will be passed to the page component as props
+  };
+}
 
 export default Home;

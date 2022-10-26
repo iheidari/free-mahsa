@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
-import Card, { CardStatus } from "./Card";
-import data from "./info.json";
+import Card, { CardProps, CardStatus } from "./Card";
+import { convert } from "./util";
 
-const Cards = () => {
+type CardsProps = {
+  rawData: any;
+};
+
+const Cards = ({ rawData }: CardsProps) => {
   const [time, setTime] = useState(new Date().getTime());
   useEffect(() => {
     const interval = setInterval(() => {
@@ -12,15 +16,17 @@ const Cards = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const data: CardProps[] = rawData.map((d: any) => convert(d));
+
   const components = data.map((card) => {
     return (
       <Card
         key={card.name}
         name={card.name}
-        image={`/images/${card.image}`}
+        image={`${card.image}`}
         timer={{
           seconds: Math.floor(
-            (time - new Date(card.timer.start).getTime()) / 1000
+            (time - new Date(card.timer.seconds).getTime()) / 1000
           ),
           text: card.timer.text,
         }}
