@@ -1,6 +1,6 @@
 import Killed from "../Icons/Killed";
 import Lost from "../Icons/Lost";
-import Prison from "../Icons/Prison";
+import Arrested from "../Icons/Arrested";
 import { CardStatus } from "./Card";
 
 type Props = {
@@ -14,8 +14,8 @@ const Tag = ({ status }: Props) => {
   if (status === "lost") {
     return <Lost />;
   }
-  if (status === "prison") {
-    return <Prison />;
+  if (status === "arrested") {
+    return <Arrested />;
   }
   return null;
 };

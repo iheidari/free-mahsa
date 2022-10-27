@@ -2,12 +2,12 @@ import { CardProps } from "./Card";
 export const convert = (data: any): CardProps => {
   return {
     name: data.nameFa,
-    image: data.image1.asset.url,
+    image: data.images[0].asset.url,
     timer: {
-      seconds: data.isAlive ? data.arrestDate : data.birthDate,
+      seconds: data.status === "killed" ? data.birthDate : data.arrestDate,
       text: data.sloganFa,
     },
-    status: data.isAlive ? "prison" : "killed",
-    link: data.url1,
+    status: data.status,
+    link: data.urls?.length ? data.urls[0] : "#",
   };
 };

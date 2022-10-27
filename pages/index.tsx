@@ -47,21 +47,19 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
   );
 };
 
-const query = encodeURIComponent(`*[_type=="person"]{
+const query = encodeURIComponent(`*[_type=="person" && isReady==true]{
+  isReady,
   _createdAt,
   _id, 
   _updatedAt,
   birthDate,
-  isAlive,  
+  status,  
   nameFa,
   arrestDate,
   killedDate,
   sloganFa,
-  url1,
-  url2,
-  image1{asset->{path,url}},
- image2{asset->{path,url}},
-  image3{asset->{path,url}}, 
+  urls,  
+  images[]{asset->{path,url}},
   descriptionFa
 }`);
 
