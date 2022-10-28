@@ -1,4 +1,4 @@
-const Prison = () => {
+const Arrested = () => {
   return (
     <svg width="100%" height="100%" viewBox="0 0 51 15" fill="rgba(0,0,0,0.3)">
       <rect
@@ -18,4 +18,4 @@ const Prison = () => {
   );
 };
 
-export default Prison;
+export default Arrested;
