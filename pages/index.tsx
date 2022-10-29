@@ -35,7 +35,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
           میتوانید اطلاعات دیگر افراد کشته و یا دستگیر شده را از طریق این{" "}
           <a
             className="underline text-green-700"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSer8D2aL160OZEz-PYKXqKNkx1MFyOyxubtfKdVyA1cxDo1Uw/viewform?usp=sf_link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSejeeFontH2CLs3NiNUWw2lWMflFKysZEqiWenPtthwr_KwBQ/viewform?usp=sf_link"
           >
             گوگل فرم
           </a>{" "}
