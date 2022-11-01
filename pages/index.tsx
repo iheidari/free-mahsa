@@ -47,7 +47,8 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
   );
 };
 
-const query = encodeURIComponent(`*[_type=="person" && isReady==true]{
+const query =
+  encodeURIComponent(`*[_type=="person" && isReady==true] | order(promote asc) {
   isReady,
   _createdAt,
   _id, 
@@ -61,7 +62,7 @@ const query = encodeURIComponent(`*[_type=="person" && isReady==true]{
   urls,  
   images[]{asset->{path,url}},
   descriptionFa
-}`);
+} `);
 
 export async function getStaticProps() {
   const result = await sanityApi.get(`/data/query/production?query=${query}`);

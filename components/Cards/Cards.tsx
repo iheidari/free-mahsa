@@ -18,6 +18,7 @@ const Cards = ({ rawData }: CardsProps) => {
 
   const data: CardProps[] = rawData.map((d: any) => convert(d));
 
+  const timeZoneOffset = (new Date().getTimezoneOffset() + 3.5 * 60) * 60;
   const components = data.map((card) => {
     return (
       <Card
@@ -25,9 +26,9 @@ const Cards = ({ rawData }: CardsProps) => {
         name={card.name}
         image={`${card.image}`}
         timer={{
-          seconds: Math.floor(
-            (time - new Date(card.timer.seconds).getTime()) / 1000
-          ),
+          seconds:
+            Math.floor((time - new Date(card.timer.seconds).getTime()) / 1000) +
+            timeZoneOffset,
           text: card.timer.text,
         }}
         status={card.status as CardStatus}

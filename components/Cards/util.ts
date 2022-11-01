@@ -27,6 +27,9 @@ const getCorrectTime = (data: any) => {
   return data.arrestDate;
 };
 const getSlogan = (data: any) => {
+  if (data.sloganFa) {
+    return data.sloganFa;
+  }
   if (data.status === "killed") {
     if (data.birthDate) {
       return `${data.nameFa} امروز چند ساله بود؟`;
