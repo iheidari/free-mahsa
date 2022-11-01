@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Card, { CardProps, CardStatus } from "./Card";
-import { convert } from "./util";
+import { convert, shuffle } from "./util";
 
 type CardsProps = {
   rawData: any;
@@ -8,6 +8,7 @@ type CardsProps = {
 
 const Cards = ({ rawData }: CardsProps) => {
   const [time, setTime] = useState(new Date().getTime());
+
   useEffect(() => {
     const interval = setInterval(() => {
       const timeMs = new Date().getTime();
@@ -16,7 +17,15 @@ const Cards = ({ rawData }: CardsProps) => {
     return () => clearInterval(interval);
   }, []);
 
-  const data: CardProps[] = rawData.map((d: any) => convert(d));
+  const [data, setData] = useState<CardProps[]>([]);
+
+  useEffect(() => {
+    setData(
+      shuffle(rawData)
+        .sort((a, b) => (a.promote === b.promote ? 0 : a.promote ? -1 : 1))
+        .map((d: any) => convert(d))
+    );
+  }, [rawData]);
 
   const timeZoneOffset = (new Date().getTimezoneOffset() + 3.5 * 60) * 60;
   const components = data.map((card) => {

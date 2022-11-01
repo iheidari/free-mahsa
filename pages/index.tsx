@@ -49,6 +49,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
 
 const query =
   encodeURIComponent(`*[_type=="person" && isReady==true] | order(promote desc) {
+  promote,
   isReady,
   _createdAt,
   _id, 
