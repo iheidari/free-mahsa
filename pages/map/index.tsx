@@ -4,7 +4,13 @@ import Map from "../../components/Map";
 type Props = {};
 
 const index = (props: Props) => {
-  return <Map />;
+  return (
+    <div className="max-w-5xl mx-auto flex justify-center bg-slate-400">
+      <main className="w-5/6">
+        <Map />
+      </main>
+    </div>
+  );
 };
 
 export default index;
