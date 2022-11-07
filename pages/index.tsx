@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Cards from "../components/Cards";
 import { sanityApi } from "../helpers/api";
-import styles from "../styles/Home.module.css";
 
 type HomeProps = {
   rawData?: any;
@@ -11,7 +10,7 @@ type HomeProps = {
 
 const Home: NextPage = ({ rawData }: HomeProps) => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Free Mahsa</title>
         <meta
@@ -21,7 +20,9 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main
+        className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
+      >
         <div className="mb-10">
           <Image
             className="rounded-50p"
@@ -43,7 +44,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
         </div>
         <Cards rawData={rawData} />
       </main>
-    </div>
+    </>
   );
 };
 
