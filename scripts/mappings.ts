@@ -1,10 +1,11 @@
 import { IData } from "./types";
 import cityProvince from "../fixtures/city-province";
 
-export const mapper = (input: IData) => {
+export const mapper = (input: IData, index: number) => {
   const city = cityMapping(input);
   const province = cityProvince.find((cp) => cp.city == city)?.province ?? "";
   return {
+    id: index,
     name: nameMapping(input),
     city,
     province,
