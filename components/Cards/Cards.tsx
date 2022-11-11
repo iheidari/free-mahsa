@@ -35,9 +35,11 @@ const Cards = ({ rawData }: CardsProps) => {
         name={card.name}
         image={`${card.image}`}
         timer={{
-          seconds:
-            Math.floor((time - new Date(card.timer.seconds).getTime()) / 1000) +
-            timeZoneOffset,
+          seconds: time
+            ? Math.floor(
+                (time - new Date(card.timer.seconds).getTime()) / 1000
+              ) + timeZoneOffset
+            : 0,
           text: card.timer.text,
         }}
         status={card.status as CardStatus}

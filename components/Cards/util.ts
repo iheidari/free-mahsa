@@ -15,7 +15,7 @@ export const convert = (data: any): CardProps => {
       text: slogan,
     },
     status: data.status,
-    link: data.urls?.length ? data.urls[0] : "#",
+    link: data.urls?.length ? data.urls[0] : "",
   };
 };
 

@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Cards from "../components/Cards";
 import { sanityApi } from "../helpers/api";
-import styles from "../styles/Home.module.css";
 
 type HomeProps = {
   rawData?: any;
@@ -11,7 +11,7 @@ type HomeProps = {
 
 const Home: NextPage = ({ rawData }: HomeProps) => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Free Mahsa</title>
         <meta
@@ -21,15 +21,32 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div className="mb-10">
+      <main
+        className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
+      >
+        <div className="mb-10 flex flex-row justify-around w-3/4">
           <Image
             className="rounded-50p"
-            alt=""
+            alt="زن زندگی آزادی"
             src="/images/logo.jpg"
             width={300}
             height={300}
           />
+          <div className="relative">
+            <Link href={"./map"} passHref>
+              <a>
+                <div className="absolute right-12  top-32 z-10 text-white text-3xl bg-opacity-50 bg-gray-700">
+                  لیست دستگیر شده ها
+                </div>
+                <Image
+                  alt="نقشه اینتراکتیو دستگیر شده ها"
+                  src="/images/iran.png"
+                  width={324}
+                  height={300}
+                />
+              </a>
+            </Link>
+          </div>
         </div>
         <div className="mb-20 text-center">
           میتوانید اطلاعات دیگر افراد کشته و یا دستگیر شده را از طریق این{" "}
@@ -43,7 +60,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
         </div>
         <Cards rawData={rawData} />
       </main>
-    </div>
+    </>
   );
 };
 
