@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "convert": "ts-node ./scripts/parse-raw-csv.ts",
+    "parse": "ts-node ./scripts/parse.ts",
     "analyze": "ts-node ./scripts/analyze.ts"
   },
   "dependencies": {

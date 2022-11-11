@@ -2,6 +2,7 @@ import csv from "csvtojson";
 import cityProvince from "../fixtures/city-province";
 import { mapper } from "./mappings";
 import { IData } from "./types";
+import { readFile } from "./util";
 
 const getCities = (input: IData[]) => {
   return input.reduce((acc: string[], data: IData) => {
@@ -13,7 +14,7 @@ const getCities = (input: IData[]) => {
 };
 
 const analyze = async () => {
-  let all = await csv().fromFile("./data/list.csv");
+  let all = await readFile();
   console.log("🚀 ~ jsonArray", all.length);
 
   all = all.filter((data) => data.name);

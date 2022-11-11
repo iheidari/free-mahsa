@@ -20,10 +20,12 @@ export const nameMapping = (rawData: IData) => {
 
 export const statusMapping = (rawData: IData) => {
   switch (rawData.status) {
-    case "آزادی با وثیقه":
-    case "آزد شد":
     case "آزاد شد با وثیقه":
+      return "آزادی با وثیقه";
+    case "آزد شد":
       return "آزاد شد";
+    case "مفقود":
+      return "ناپدید";
     default:
       return rawData.status.trim();
   }
@@ -39,6 +41,7 @@ export const cityMapping = (rawData: IData) => {
       case "محدثه همافرد":
       case "احسان پیربرناش":
       case "محمد حسین همت پور":
+      case "محمدحسین همت پور":
       case "مینا جندقی":
       case "ضیا صدر":
         return "تهران";
@@ -90,6 +93,22 @@ export const cityMapping = (rawData: IData) => {
       return "مهاباد";
     case "کچویی":
       return "کرج";
+    case "گیلان غرب":
+      return "گیلانغرب";
+    case "بندرعباس":
+      return "بندر عباس";
+    case "لواسان  تهران":
+      return "لواسان";
+    case "میادوآب":
+      return "میاندوآب";
+    case "اسلام‌آباد غرب":
+      return "اسلام‌ آباد";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
     default:
       return rawData.city.trim();
   }
