@@ -16,7 +16,41 @@ export const mapper = (input: IData, index: number) => {
 };
 
 export const nameMapping = (rawData: IData) => {
-  return rawData.name.trim();
+  switch (rawData.name) {
+    case "سجاد رحمانی⁩":
+      return "سجاد رحمانی";
+    case "حسین مومنی⁩":
+      return "حسین مومنی";
+    case "‏کوشیار نوشادی":
+      return "کوشیار نوشادی";
+    case "محمد رضا مسعودی⁩":
+      return "محمد رضا مسعودی";
+    case "مهران رزمان⁩":
+      return "مهران رزمان";
+    case "اکبر سیدی ‌  ‎":
+      return "اکبر سیدی";
+    case "جلیل سلیمان پور   ‎":
+      return "جلیل سلیمان پور";
+    case "صادق دشتک‌‌   ‎":
+      return "صادق دشتک‌‌";
+    case "محمد نظریان   ‎":
+      return "محمد نظریان";
+    case "نیلوفر فتحی  ‌‎":
+      return "نیلوفر فتحی";
+    case "‏سارا هادیان":
+      return "سارا هادیان";
+    case "‏امیرحمزه براهویی":
+      return "امیرحمزه براهویی";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+
+    default:
+      return rawData.name.trim();
+  }
 };
 
 export const statusMapping = (rawData: IData) => {

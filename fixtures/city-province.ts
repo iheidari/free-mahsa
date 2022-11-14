@@ -38,7 +38,7 @@ const cityProvince = [
   { city: "پاکدشت ورامین", province: "تهران" },
   { city: "پاوه", province: "کرمانشاه" },
   { city: "پسوه", province: "آذربایجان غربی" },
-  { city: "پیرانشهر", province: "لرستان" },
+  { city: "پیرانشهر", province: "آذربایجان غربی" },
   { city: "تالش", province: "گیلان" },
   { city: "تبریز", province: "آذربایجان شرقی" },
   { city: "تکاب", province: "آذربایجان غربی" },
