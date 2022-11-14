@@ -24,7 +24,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
       <main
         className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
       >
-        <div className="mb-10 flex flex-row justify-around w-3/4">
+        <div className="mb-10 flex flex-col justify-around w-3/4 sm:flex-row gap-4">
           <Image
             className="rounded-50p"
             alt="زن زندگی آزادی"
@@ -35,8 +35,10 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
           <div className="relative">
             <Link href={"./map"} passHref>
               <a>
-                <div className="absolute right-12  top-32 z-10 text-white text-3xl bg-opacity-50 bg-gray-700">
-                  لیست دستگیر شده ها
+                <div className="absolute w-full h-full flex justify-center items-center  z-10 text-white ">
+                  <div className="bg-slate-600 p-2 bg-opacity-20 sm:text-xl md:text-2xl">
+                    نقشه دستگیر شده ها
+                  </div>
                 </div>
                 <Image
                   alt="نقشه اینتراکتیو دستگیر شده ها"

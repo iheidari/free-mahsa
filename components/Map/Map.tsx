@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import provinces from "../../fixtures/provinces";
 import { paths } from "./paths";
 import { getProvinceCount } from "./util";
@@ -8,6 +8,13 @@ type Props = {
 };
 
 const Map = ({ onClick }: Props) => {
+  const [selectedProvince, setSelectedProvince] = useState("");
+
+  const handleClick = (id: string) => () => {
+    setSelectedProvince(id);
+    onClick(provinces.find((p) => p.code === id)?.nameFa);
+  };
+
   return (
     <svg
       fill="#7c7c7c"
@@ -21,14 +28,19 @@ const Map = ({ onClick }: Props) => {
         <React.Fragment key={path.id}>
           <path
             d={path.d}
-            className="hover:fill-slate-500"
-            onClick={() =>
-              onClick(provinces.find((p) => p.code === path.id)?.nameFa)
-            }
+            className={`hover:fill-slate-500 cursor-pointer ${
+              selectedProvince === path.id ? "fill-slate-500" : ""
+            }`}
+            onClick={handleClick(path.id)}
           >
             <title>{provinces.find((p) => p.code === path.id)?.nameFa}</title>
           </path>
-          <text x={path.x} y={path.y}>
+          <text
+            x={path.x}
+            y={path.y}
+            className="cursor-pointer"
+            onClick={handleClick(path.id)}
+          >
             <title>{provinces.find((p) => p.code === path.id)?.nameFa}</title>
             {getProvinceCount(path.id)}
           </text>

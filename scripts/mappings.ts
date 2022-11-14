@@ -104,6 +104,12 @@ export const cityMapping = (rawData: IData) => {
       return "میاندوآب";
     case "اسلام‌آباد غرب":
       return "اسلام‌ آباد";
+    case "گنبدکاووس":
+      return "گنبد کاووس";
+    case "نجف آباد اصفهان":
+      return "نجف آباد";
+    case "":
+      return "";
     case "":
       return "";
     case "":
