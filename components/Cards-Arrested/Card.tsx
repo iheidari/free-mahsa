@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/future/image";
 
-export type CardProps = {
+export type ArrestedPersonProps = {
   name: string;
   status?: string;
   city?: string;
@@ -10,7 +10,7 @@ export type CardProps = {
 
 export type CardStatus = "killed" | "arrested" | "lost";
 
-const Card = ({ name, status, city, details, type }: CardProps) => {
+const Card = ({ name, status, city, details, type }: ArrestedPersonProps) => {
   return (
     <div
       className={`text-white ${

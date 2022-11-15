@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Cards from "../../components/Cards-Arrested";
 import Map from "../../components/Map";
+import Details from "../../components/Map/Details";
 import data from "../../data/output.json";
+import { sortArrested } from "../../services/sort";
 
 const MapPage = () => {
   const [selectedProvince, setSelectedProvince] = useState<
@@ -10,7 +12,9 @@ const MapPage = () => {
   const [cards, setCards] = useState<any[]>([]);
   const handleClick = (province?: string) => {
     setSelectedProvince(province);
-    const result = data.filter((d) => d.province === province);
+    const result = data
+      .filter((d) => d.province === province)
+      .sort(sortArrested);
     setCards(result);
   };
   return (
@@ -23,12 +27,17 @@ const MapPage = () => {
             <Map onClick={handleClick} />
           </div>
           <div className="max-w-96 flex gap-5 flex-col">
-            <div
-              className={`text-center h-24 ${
-                selectedProvince ? "text-5xl" : "text-2xl"
-              }`}
-            >
-              {selectedProvince || "لطفا یک استان را انتخاب نمایید"}
+            <div className="text-center">
+              <div
+                className={`text-center h-24 ${
+                  selectedProvince ? "text-5xl" : "text-2xl"
+                }`}
+              >
+                {selectedProvince || "لطفا یک استان را انتخاب نمایید"}
+              </div>
+              <div>
+                <Details data={cards.length === 0 ? data : cards} />
+              </div>
             </div>
             <div className="text-center">
               منبع:{" "}

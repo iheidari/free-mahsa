@@ -41,8 +41,8 @@ export const nameMapping = (rawData: IData) => {
       return "سارا هادیان";
     case "‏امیرحمزه براهویی":
       return "امیرحمزه براهویی";
-    case "":
-      return "";
+    case "حشم دار   ‎":
+      return "حشم دار";
     case "":
       return "";
     case "":
@@ -56,13 +56,24 @@ export const nameMapping = (rawData: IData) => {
 export const statusMapping = (rawData: IData) => {
   switch (rawData.status) {
     case "آزاد شد با وثیقه":
+    case "آزادی با وثیقه":
+    case "با وثیقه آزاد شد":
       return "آزادی با وثیقه";
+
     case "آزد شد":
+    case "آزاد شد":
       return "آزاد شد";
+
     case "مفقود":
+    case "ناپدید":
       return "ناپدید";
-    default:
-      return rawData.status.trim();
+    case "زندانی":
+    case "بازداشت شد":
+      return "زندانی";
+    default: {
+      console.warn(`No map for ${rawData.name} status: ${rawData.status}`);
+      return "زندانی";
+    }
   }
 };
 
