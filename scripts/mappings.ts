@@ -61,6 +61,7 @@ export const statusMapping = (rawData: IData) => {
       return "آزادی با وثیقه";
 
     case "آزد شد":
+    case "ازاد شد":
     case "آزاد شد":
       return "آزاد شد";
 
@@ -148,17 +149,19 @@ export const cityMapping = (rawData: IData) => {
     case "میادوآب":
       return "میاندوآب";
     case "اسلام‌آباد غرب":
-      return "اسلام‌ آباد";
+    case "اسلام‌ آباد":
+      return "اسلام‌ آباد غرب";
     case "گنبدکاووس":
       return "گنبد کاووس";
     case "نجف آباد اصفهان":
       return "نجف آباد";
-    case "":
-      return "";
-    case "":
-      return "";
-    case "":
-      return "";
+    case "نوراباد":
+    case "نورآباد":
+      return "نور آباد";
+    case "بوجنورد":
+      return "بجنورد";
+    case "دره شهر ایلام":
+      return "دره شهر";
     case "":
       return "";
     default:

@@ -25,7 +25,13 @@ const analyze = async () => {
   // No province found for the city
   all.forEach((data: IData) => {
     if (cityProvince.findIndex((cp) => cp.city === data.city) === -1) {
-      console.log(`🚀 ~ Province not found: ${JSON.stringify(data, null, 2)}`);
+      if (data.city) {
+        console.log(
+          `🚀 ~ Province not found: ${JSON.stringify(data, null, 2)}`
+        );
+      } else {
+        console.log(`🚀 ~ No city: ${data.name}`);
+      }
     }
   });
 };
