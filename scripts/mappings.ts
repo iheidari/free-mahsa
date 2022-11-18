@@ -162,6 +162,14 @@ export const cityMapping = (rawData: IData) => {
       return "بجنورد";
     case "دره شهر ایلام":
       return "دره شهر";
+    case "روستای چهاب (نام محلی: چهو) از توابع کهگیلویه":
+      return "روستای چهاب";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
     case "":
       return "";
     default:
