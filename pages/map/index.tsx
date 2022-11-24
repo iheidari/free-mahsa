@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import Cards from "../../components/Cards-Arrested";
 import Map from "../../components/Map";
@@ -19,9 +21,27 @@ const MapPage = () => {
   };
   return (
     <>
-      <main
-        className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
-      >
+      <main className="min-h-screen flex flex-1 flex-col justify-center items-center">
+        <header className="flex w-full pt-4 mb-2 bg-slate-300 justify-center ">
+          <div className="flex w-full max-w-6xl flex-row justify-between  items-center">
+            <div className="text-3xl">
+              لیست دستگیرشدگان قیام زن، زندگی، آزادی
+            </div>
+            <div>
+              <Link href="/" passHref>
+                <a>
+                  <Image
+                    className="rounded-50p "
+                    alt="زن زندگی آزادی"
+                    src="/images/logo.jpg"
+                    width={56}
+                    height={56}
+                  />
+                </a>
+              </Link>
+            </div>
+          </div>
+        </header>
         <div className="flex flex-col w-full justify-center gap-9 md:flex-row">
           <div className="max-w-2xl w-full">
             <Map onClick={handleClick} />

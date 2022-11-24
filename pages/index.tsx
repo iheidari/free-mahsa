@@ -24,7 +24,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
       <main
         className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
       >
-        <div className="mb-10 flex flex-col justify-around w-3/4 sm:flex-row gap-4">
+        <div className="mb-16 flex flex-col justify-around w-3/4 sm:flex-row gap-4">
           <Image
             className="rounded-50p"
             alt="زن زندگی آزادی"
@@ -50,7 +50,9 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
             </Link>
           </div>
         </div>
-        <div className="mb-20 text-center">
+
+        <Cards rawData={rawData} />
+        <div className="mt-20 text-center">
           میتوانید اطلاعات دیگر افراد کشته و یا دستگیر شده را از طریق این{" "}
           <a
             className="underline text-green-700"
@@ -60,7 +62,6 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
           </a>{" "}
           به صورت ناشناس برای ما ارسال نمایید
         </div>
-        <Cards rawData={rawData} />
       </main>
     </>
   );
