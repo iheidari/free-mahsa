@@ -1,17 +1,7 @@
-import csv from "csvtojson";
 import cityProvince from "../fixtures/city-province";
 import { mapper } from "./mappings";
 import { IData } from "./types";
 import { readFile } from "./util";
-
-const getCities = (input: IData[]) => {
-  return input.reduce((acc: string[], data: IData) => {
-    if (!acc.includes(data.city)) {
-      acc.push(data.city);
-    }
-    return acc;
-  }, []);
-};
 
 const analyze = async () => {
   let all = await readFile();
@@ -22,18 +12,37 @@ const analyze = async () => {
 
   all = all.map(mapper);
 
+  const cityWithNoProvince: string[] = [];
+  const noCity: string[] = [];
   // No province found for the city
   all.forEach((data: IData) => {
-    if (cityProvince.findIndex((cp) => cp.city === data.city) === -1) {
-      if (data.city) {
-        console.log(
-          `🚀 ~ Province not found: ${JSON.stringify(data, null, 2)}`
-        );
-      } else {
-        console.log(`🚀 ~ No city: ${data.name}`);
-      }
+    if (cityProvince.findIndex((cp) => cp.city === data.city) !== -1) {
+      return;
+    }
+    if (!data.city) {
+      noCity.push(data.name);
+      return;
+    }
+    if (!cityWithNoProvince.includes(data.city)) {
+      cityWithNoProvince.push(data.city);
     }
   });
+
+  console.log("Cities With No Province: " + cityWithNoProvince.length);
+
+  const allCityProvinces = [
+    ...cityProvince,
+    ...cityWithNoProvince.map((city) => ({
+      city,
+      province: "",
+    })),
+  ];
+
+  allCityProvinces
+    .sort((cnp1, cnp2) => cnp1.city.localeCompare(cnp2.city))
+    .forEach((cnp) => {
+      console.log(`{ city: "${cnp.city}", province: "${cnp.province}" },`);
+    });
 };
 
 analyze();

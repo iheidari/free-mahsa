@@ -1,7 +1,7 @@
 import csv from "csvtojson";
 
 export const readFile = async () => {
-  let all = await csv().fromFile("./data/list.csv");
+  let all = await csv().fromFile("./data/data.csv");
   all = all.map((item) => ({
     name: item["نام"],
     city: item["شهر"],

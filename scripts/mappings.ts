@@ -163,9 +163,10 @@ export const cityMapping = (rawData: IData) => {
     case "دره شهر ایلام":
       return "دره شهر";
     case "روستای چهاب (نام محلی: چهو) از توابع کهگیلویه":
+    case "روستای چهاب (نام محلی: چهو)":
       return "روستای چهاب";
-    case "":
-      return "";
+    case "لواسان تهران":
+      return "لواسان";
     case "":
       return "";
     case "":
