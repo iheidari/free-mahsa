@@ -135,6 +135,7 @@ export const cityMapping = (rawData: IData) => {
     case "آذرباییجان غربی":
       return "آذربایجان غربی";
     case "آذرباییجان شرقی":
+    case "آذربايجان شرقي":
       return "آذربایجان شرقی";
     case "مهباد":
       return "مهاباد";
@@ -167,10 +168,11 @@ export const cityMapping = (rawData: IData) => {
       return "روستای چهاب";
     case "لواسان تهران":
       return "لواسان";
-    case "":
-      return "";
-    case "":
-      return "";
+    case "گيلان":
+      return "گیلان";
+    case "چهارمحال وبختياري":
+    case "چهار محال":
+      return "چهارمحال و بختیاری";
     case "":
       return "";
     default:
