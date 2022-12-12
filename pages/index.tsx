@@ -3,13 +3,17 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Cards from "../components/Cards";
+import Header from "../components/Header";
+import Translate from "../components/Translate";
 import { sanityApi } from "../helpers/api";
+import useTranslate from "../hooks/useTranslate";
 
 type HomeProps = {
   rawData?: any;
 };
 
 const Home: NextPage = ({ rawData }: HomeProps) => {
+  const { t } = useTranslate();
   return (
     <>
       <Head>
@@ -20,14 +24,14 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <main
         className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
       >
         <div className="mb-16 flex flex-col justify-around w-3/4 sm:flex-row gap-4">
           <Image
             className="rounded-50p"
-            alt="زن زندگی آزادی"
+            alt={t("زن زندگی آزادی")}
             src="/images/logo.jpg"
             width={300}
             height={300}
@@ -37,11 +41,11 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
               <a>
                 <div className="absolute w-full h-full flex justify-center items-center  z-10 text-white ">
                   <div className="bg-slate-600 p-2 bg-opacity-20 sm:text-xl md:text-2xl">
-                    نقشه دستگیر شده ها
+                    <Translate>نقشه دستگیر شده ها</Translate>
                   </div>
                 </div>
                 <Image
-                  alt="نقشه اینتراکتیو دستگیر شده ها"
+                  alt={t("نقشه اینتراکتیو دستگیر شده ها")}
                   src="/images/iran.png"
                   width={324}
                   height={300}
@@ -50,7 +54,6 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
             </Link>
           </div>
         </div>
-
         <Cards rawData={rawData} />
         <div className="mt-20 text-center">
           میتوانید اطلاعات دیگر افراد کشته و یا دستگیر شده را از طریق این{" "}

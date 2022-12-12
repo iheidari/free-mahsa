@@ -1,3 +1,4 @@
+import useTranslate from "../../hooks/useTranslate";
 import { ArrestedPersonProps } from "../Cards-Arrested/Card";
 
 type Props = {
@@ -5,6 +6,7 @@ type Props = {
 };
 
 const Details = ({ data }: Props) => {
+  const { t } = useTranslate();
   const freeCount = data.filter(
     (item) => item.status == "آزادی با وثیقه" || item.status == "آزاد شد"
   ).length;
@@ -13,8 +15,12 @@ const Details = ({ data }: Props) => {
   ).length;
   return (
     <div className="flex flex-row gap-3 justify-center">
-      <div>زندانی: {arrestedCount}</div>
-      <div>آزاد: {freeCount}</div>
+      <div>
+        {t("زندانی")}: {arrestedCount}
+      </div>
+      <div>
+        {t("آزاد")}: {freeCount}
+      </div>
     </div>
   );
 };
