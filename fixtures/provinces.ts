@@ -1,4 +1,10 @@
-const provinces = [
+export type ProvinceType = {
+  nameFa: string;
+  nameEn: string;
+  code: string;
+};
+
+const provinces: ProvinceType[] = [
   { nameFa: "البرز", nameEn: "Alborz", code: "AL" },
   { nameFa: "اردبیل", nameEn: "Ardabil", code: "AR" },
   { nameFa: "آذربایجان شرقی", nameEn: "Azerbaijan, East", code: "AS" },

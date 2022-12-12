@@ -1,21 +1,21 @@
-import { IData } from "./types";
-import cityProvince from "../fixtures/city-province";
+import { IData } from "../types";
+import cities from "../../fixtures/cities";
 
-export const mapper = (input: IData, index: number) => {
+const mapper = (input: IData, index: number) => {
   const city = cityMapping(input);
-  const province = cityProvince.find((cp) => cp.city == city)?.province ?? "";
+  const province = cities.find((cp) => cp.nameFa == city)?.provinceCode ?? "";
   return {
     id: index,
     name: nameMapping(input),
     city,
     province,
     status: statusMapping(input),
-    type: input.type,
+    type: typeMapping(input),
     details: input.details,
   };
 };
 
-export const nameMapping = (rawData: IData) => {
+const nameMapping = (rawData: IData) => {
   switch (rawData.name) {
     case "سجاد رحمانی⁩":
       return "سجاد رحمانی";
@@ -53,7 +53,7 @@ export const nameMapping = (rawData: IData) => {
   }
 };
 
-export const statusMapping = (rawData: IData) => {
+const statusMapping = (rawData: IData) => {
   switch (rawData.status) {
     case "آزاد شد با وثیقه":
     case "آزادی با وثیقه":
@@ -78,7 +78,7 @@ export const statusMapping = (rawData: IData) => {
   }
 };
 
-export const cityMapping = (rawData: IData) => {
+const cityMapping = (rawData: IData) => {
   if (!rawData.city) {
     switch (rawData.name.trim()) {
       case "کامران ساختمانگر":
@@ -173,9 +173,22 @@ export const cityMapping = (rawData: IData) => {
     case "چهارمحال وبختياري":
     case "چهار محال":
       return "چهارمحال و بختیاری";
-    case "":
-      return "";
+    case "مياندوآب":
+      return "میاندوآب";
+    case "میرجاه":
+      return "میرجاوه";
+    case "خمينی شهر":
+      return "خمینی شهر";
     default:
       return rawData.city.trim();
   }
 };
+
+const typeMapping = (rawData: IData) => {
+  return rawData.type;
+  // switch(rawData){
+  //   case
+  // }
+};
+
+export default mapper;

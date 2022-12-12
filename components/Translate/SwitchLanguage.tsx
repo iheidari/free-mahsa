@@ -4,10 +4,10 @@ import React from "react";
 import Translate from "./Translate";
 
 const SwitchLanguage = () => {
-  const { locale } = useRouter();
+  const { locale, basePath } = useRouter();
   const otherLanguage = locale === "fa" ? "en" : "fa";
   return (
-    <Link href="/" locale={otherLanguage} passHref>
+    <Link href={basePath} locale={otherLanguage} passHref>
       <a>
         <Translate>EN</Translate>
       </a>

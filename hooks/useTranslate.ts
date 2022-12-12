@@ -1,18 +1,21 @@
 import { useRouter } from "next/router";
 import { getTranslate } from "../components/Translate/util";
-
-type Props = {};
+import { namespacesType } from "../i18n/types";
 
 const useTranslate = () => {
   const { locale, defaultLocale } = useRouter();
 
-  const t = (text: string): string => {
+  const t = (text?: string, namespace?: namespacesType): string => {
+    if (!text) {
+      return "";
+    }
     if (locale === defaultLocale) {
       return text;
     }
-    return getTranslate(text, locale);
+    return getTranslate(text, namespace, locale);
   };
-  return { t };
+  const isLatin = locale !== "fa";
+  return { t, isLatin };
 };
 
 export default useTranslate;

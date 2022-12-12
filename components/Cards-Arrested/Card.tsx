@@ -1,4 +1,6 @@
 import Image, { StaticImageData } from "next/future/image";
+import useTranslate from "../../hooks/useTranslate";
+import Translate from "../Translate/Translate";
 
 export type ArrestedPersonProps = {
   name: string;
@@ -11,6 +13,7 @@ export type ArrestedPersonProps = {
 export type CardStatus = "killed" | "arrested" | "lost";
 
 const Card = ({ name, status, city, details, type }: ArrestedPersonProps) => {
+  const { t, isLatin } = useTranslate();
   return (
     <div
       className={`text-white ${
@@ -20,20 +23,24 @@ const Card = ({ name, status, city, details, type }: ArrestedPersonProps) => {
     >
       <div className="rounded-50p pb-7 pt-0 py-3 relative flex-1 text-center box-border max-w-full">
         <Image
-          alt={name}
+          alt={t(name)}
           style={{ marginTop: "-36px", overflow: "hidden" }}
           className="w-44 h-44 mx-auto mb-0 overflow-hidden object-center-bottom object-cover rounded-34p relative block"
           src="/images/arrested.jpg"
           width={180}
           height={180}
         />
-        <h3 className="text-lg mt-4 mb-4">{name}</h3>
+        <h3 className="text-lg mt-4 mb-4">{t(name, "name")}</h3>
         <h4 className="text-lg mt-4 mb-4">
-          {type} - {city}
+          {t(type)} - {t(city, "city")}
         </h4>
-        <h4 className="text-lg mt-4 mb-4">{details}</h4>
-        <h5 className="absolute -rotate-45 top-6 -left-1 w-20 border-2 rounded-34p bg-slate-50 bg-opacity-20">
-          {status}
+        <h4 className="text-lg mt-4 mb-4">{t(details)}</h4>
+        <h5
+          className={`absolute -rotate-45 top-6 -left-1 w-20 border-2 rounded-34p bg-slate-50 bg-opacity-20 ${
+            isLatin ? "text-xs" : ""
+          }`}
+        >
+          {t(status).toLowerCase()}
         </h5>
       </div>
     </div>

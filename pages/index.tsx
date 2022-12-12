@@ -3,8 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Cards from "../components/Cards";
+import Header from "../components/Header";
 import Translate from "../components/Translate";
-import SwitchLanguage from "../components/Translate/SwitchLanguage";
 import { sanityApi } from "../helpers/api";
 import useTranslate from "../hooks/useTranslate";
 
@@ -24,7 +24,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <main
         className={`min-h-screen py-16 px-8 flex flex-1 flex-col justify-center items-center`}
       >
@@ -53,11 +53,7 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
               </a>
             </Link>
           </div>
-          <div>
-            <SwitchLanguage />
-          </div>
         </div>
-
         <Cards rawData={rawData} />
         <div className="mt-20 text-center">
           میتوانید اطلاعات دیگر افراد کشته و یا دستگیر شده را از طریق این{" "}
