@@ -6,7 +6,7 @@ const mapper = (input: IData, index: number) => {
   const province = cities.find((cp) => cp.nameFa == city)?.provinceCode ?? "";
   return {
     id: index,
-    name: nameMapping(input),
+    name: nameMapping(input.name),
     city,
     province,
     status: statusMapping(input),
@@ -15,8 +15,8 @@ const mapper = (input: IData, index: number) => {
   };
 };
 
-const nameMapping = (rawData: IData) => {
-  switch (rawData.name) {
+export const nameMapping = (name: string, _rawData?: IData): string => {
+  switch (name.trim()) {
     case "سجاد رحمانی⁩":
       return "سجاد رحمانی";
     case "حسین مومنی⁩":
@@ -27,29 +27,58 @@ const nameMapping = (rawData: IData) => {
       return "محمد رضا مسعودی";
     case "مهران رزمان⁩":
       return "مهران رزمان";
-    case "اکبر سیدی ‌  ‎":
+    case "اکبر سیدی ‌ ‎":
       return "اکبر سیدی";
-    case "جلیل سلیمان پور   ‎":
+    case "جلیل سلیمان پور ‎":
       return "جلیل سلیمان پور";
-    case "صادق دشتک‌‌   ‎":
+    case "صادق دشتک‌‌ ‎":
       return "صادق دشتک‌‌";
+    case "محمد نظریان ‎":
     case "محمد نظریان   ‎":
       return "محمد نظریان";
-    case "نیلوفر فتحی  ‌‎":
+    case "نیلوفر فتحی ‌‎":
       return "نیلوفر فتحی";
     case "‏سارا هادیان":
       return "سارا هادیان";
     case "‏امیرحمزه براهویی":
       return "امیرحمزه براهویی";
-    case "حشم دار   ‎":
+    case "حشم دار ‎":
       return "حشم دار";
+    case "محمدسعید امیری⁩":
+      return "محمدسعید امیری";
+    case "‏زهرا نظری گمیشانی":
+      return "زهرا نظری گمیشانی";
+    case "‌‎نیما مهین بخت":
+      return "‌نیما مهین بخت";
+    case "‎پگاه شهوندی":
+      return "پگاه شهوندی";
+    case "( اسم) نگهدار هلر.":
+    case "( اسم) نگهدار هلر":
+      return "نگهدار هلر";
+    case "‌ بردیا تاجدینی":
+      return "بردیا تاجدینی";
+    case "وحید علی قلی پو":
+      return "وحید علی قلی پور";
+    case "رسلان محمودی":
+      return "ارسلان محمودی";
+    case "ونس اصلمرز":
+      return "یونس اصلمرز";
+    case "ارمین الماسی":
+      return "آرمین الماسی";
+    case "ارمین کریمی":
+      return "آرمین کریمی";
+    case "مونا بروزیی":
+      return "مونا برزویی";
+    case "شفق دریوشی":
+      return "شفق درویشی";
     case "":
       return "";
     case "":
       return "";
-
+    case "":
+      return "";
     default:
-      return rawData.name.trim();
+      return name.trim();
   }
 };
 
@@ -108,6 +137,7 @@ const cityMapping = (rawData: IData) => {
     case "حاند کبدانی":
       return "زاهدان";
     case "اسلام شهر":
+    case "اسلام‌شهر":
       return "اسلامشهر";
     case "خرم‌آباد":
       return "خرم آباد";
@@ -158,7 +188,8 @@ const cityMapping = (rawData: IData) => {
       return "نجف آباد";
     case "نوراباد":
     case "نورآباد":
-      return "نور آباد";
+    case "نور آباد":
+      return "نورآباد ممسنی";
     case "بوجنورد":
       return "بجنورد";
     case "دره شهر ایلام":

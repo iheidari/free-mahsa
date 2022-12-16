@@ -6,3 +6,8 @@ export interface IData {
   type: string;
   details: string;
 }
+
+export type nameType = {
+  nameFa: string;
+  nameEn?: string;
+};

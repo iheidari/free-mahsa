@@ -60,7 +60,9 @@ const MapPage = () => {
               </Translate>
             </a>
             <div>
-              <Translate>اسامی به روز شده در بیست آذر ساعت ده شب</Translate>
+              <Translate>
+                اسامی به روز شده در بیست و پنجم آذر ساعت یک و نیم بعد از ظهر
+              </Translate>
             </div>
           </div>
         </div>
