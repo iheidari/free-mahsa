@@ -34,7 +34,7 @@ const Card = ({ name, status, city, details, type }: ArrestedPersonProps) => {
         <h4 className="text-lg mt-4 mb-4">
           {t(type)} - {t(city, "city")}
         </h4>
-        <h4 className="text-lg mt-4 mb-4">{t(details)}</h4>
+        <h4 className="text-sm mt-4 mb-4">{t(details, "detail")}</h4>
         <h5
           className={`absolute -rotate-45 top-6 -left-1 w-20 border-2 rounded-34p bg-slate-50 bg-opacity-20 ${
             isLatin ? "text-xs" : ""

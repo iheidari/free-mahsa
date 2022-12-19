@@ -3,6 +3,7 @@ import { namespacesType } from "../../i18n/types";
 import provinces from "../../fixtures/provinces";
 import cities from "../../fixtures/cities";
 import names from "../../i18n/names.json";
+import details from "../../i18n/details.json";
 
 export const getTranslate = (
   text: string,
@@ -17,6 +18,9 @@ export const getTranslate = (
   }
   if (namespace === "name") {
     return getNameTranslation(text, locale);
+  }
+  if (namespace === "detail") {
+    return getDetailTranslation(text, locale);
   }
   if (
     locale &&
@@ -53,4 +57,12 @@ const getCityTranslation = (text: string, _locale?: string) => {
     return text;
   }
   return cities[index].nameEn;
+};
+
+const getDetailTranslation = (text: string, _locale?: string) => {
+  if ((details as any)[text] && ((details as any)[text] as any).en) {
+    return ((details as any)[text] as any).en;
+  }
+  console.warn(`Couldn't find translation for detail: "${text}"`);
+  return text;
 };

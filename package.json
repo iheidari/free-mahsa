@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "parse": "ts-node ./scripts/parse.ts",
-    "language": "ts-node ./scripts/language.ts",
+    "language": "ts-node ./scripts/language/importer.ts",
     "analyze": "ts-node ./scripts/analyze.ts"
   },
   "dependencies": {

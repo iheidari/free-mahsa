@@ -1,11 +1,11 @@
 import cities from "../fixtures/cities";
 import mapper from "./mappings";
 import { IData } from "./types";
-import { readDataFile } from "./util";
+import { readDataCsvFile } from "./util";
 import names from "../i18n/names.json";
 
 const readFarsi = async () => {
-  let all = await readDataFile("fa");
+  let all = await readDataCsvFile("fa");
   console.log("🚀 ~ jsonArray", all.length);
 
   all = all.filter((data) => data.name);

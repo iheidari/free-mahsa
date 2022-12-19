@@ -1,9 +1,9 @@
 import { writeFile } from "fs";
 import mapper from "./mappings";
-import { readDataFile } from "./util";
+import { readDataCsvFile } from "./util";
 
 const convert = async () => {
-  let all = await readDataFile("fa");
+  let all = await readDataCsvFile("fa");
   console.log("🚀 ~ jsonArray", all.length);
   all = all.filter((data) => data.name);
   console.log("🚀 ~ non empty rows(with name): ", all.length);

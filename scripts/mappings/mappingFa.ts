@@ -11,7 +11,7 @@ const mapper = (input: IData, index: number) => {
     province,
     status: statusMapping(input),
     type: typeMapping(input),
-    details: input.details,
+    details: detailsMapping(input.details),
   };
 };
 
@@ -71,8 +71,8 @@ export const nameMapping = (name: string, _rawData?: IData): string => {
       return "مونا برزویی";
     case "شفق دریوشی":
       return "شفق درویشی";
-    case "":
-      return "";
+    case "آرش الله‌یاری":
+      return "آرش الله یاری";
     case "":
       return "";
     case "":
@@ -220,6 +220,46 @@ const typeMapping = (rawData: IData) => {
   // switch(rawData){
   //   case
   // }
+};
+
+export const detailsMapping = (details: string, _rawData?: IData) => {
+  switch (details) {
+    case "15 ساله":
+      return "۱۵ ساله";
+    case "شانزده ساله":
+      return "۱۶ ساله";
+    case "16ساله، کانون اصلاح و تربیت":
+      return "۱۶ ساله، کانون اصلاح و تربیت";
+    case "17 ساله":
+    case "هفده ساله":
+      return "۱۷ ساله";
+    case "18 ساله":
+    case "هجده ساله":
+      return "۱۸ ساله";
+    case "19 ساله":
+    case "نوزده ساله":
+      return "۱۹ ساله";
+    case "بیست ساله":
+      return "۲۰ ساله";
+    case "خوانند رپ":
+      return "خواننده رپ";
+    case "دانش‌آموز":
+      return "دانش آموز";
+    case "دانش آموز15 ساله":
+      return "دانش آموز ۱۵ ساله";
+    case "دستگیر شده در شهرک اکباتان- متولد 1367":
+      return "دستگیر شده در شهرک اکباتان- ۳۴ ساله";
+    case "دستگیر شده در شهرک اکباتان- متولد 1369":
+      return "دستگیر شده در شهرک اکباتان- ۳۲ ساله";
+    case "فشافویه":
+      return "زندان فشافویه";
+    case "":
+      return "";
+    case "":
+      return "";
+    default:
+      return details.trim();
+  }
 };
 
 export default mapper;
