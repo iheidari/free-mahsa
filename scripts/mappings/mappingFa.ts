@@ -210,6 +210,30 @@ const cityMapping = (rawData: IData) => {
       return "میرجاوه";
     case "خمينی شهر":
       return "خمینی شهر";
+    case "مسجدسلیمان":
+      return "مسجد سلیمان";
+    case "اردگان":
+      return "اردکان";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
+    case "":
+      return "";
     default:
       return rawData.city.trim();
   }
