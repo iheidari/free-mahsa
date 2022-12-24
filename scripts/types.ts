@@ -7,7 +7,7 @@ export interface IData {
   details: string;
 }
 
-export type nameType = {
-  nameFa: string;
-  nameEn?: string;
+export type translateType = {
+  fa: string;
+  en?: string;
 };

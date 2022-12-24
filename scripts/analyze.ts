@@ -1,8 +1,9 @@
-import cities from "../fixtures/cities";
-import mapper from "./mappings";
+import cities from "../fixtures/cities.json";
+import mapper from "./mapping";
 import { IData } from "./types";
 import { readDataCsvFile } from "./util";
-import names from "../i18n/names.json";
+import names from "../i18n/name.json";
+import { writeFile } from "fs/promises";
 
 const readFarsi = async () => {
   let all = await readDataCsvFile("fa");
@@ -11,7 +12,7 @@ const readFarsi = async () => {
   all = all.filter((data) => data.name);
   console.log("🚀 ~ removeEmptyRows", all.length);
 
-  all = all.map(mapper("fa"));
+  all = all.map(mapper);
   const correctNames = Object.keys(names)
     .map((name) => ({
       fa: name.trim(),
@@ -52,24 +53,21 @@ const readFarsi = async () => {
 
   console.log("Cities With No Province: " + cityWithNoProvince.length);
 
-  if (cityWithNoProvince.length > 0) {
-    const allCityProvinces = [
-      ...cities,
-      ...cityWithNoProvince.map((city) => ({
-        nameFa: city,
-        nameEn: "",
-        provinceCode: "",
-      })),
-    ];
+  const allCityProvinces = [
+    ...cities.filter((city) => city.provinceCode),
+    ...cityWithNoProvince.map((city) => ({
+      nameFa: city,
+      nameEn: "",
+      provinceCode: "",
+    })),
+  ];
 
-    allCityProvinces
-      .sort((cnp1, cnp2) => cnp1.nameFa.localeCompare(cnp2.nameFa))
-      .forEach((cnp) => {
-        console.log(
-          `{ nameFa: "${cnp.nameFa}",nameEn: "${cnp.nameEn}", provinceCode: "${cnp.provinceCode}" },`
-        );
-      });
-  }
+  allCityProvinces.sort((cnp1, cnp2) => cnp1.nameFa.localeCompare(cnp2.nameFa));
+
+  await writeFile(
+    `./fixtures/cities.json`,
+    JSON.stringify(allCityProvinces, null, 2)
+  );
 };
 
 const analyze = async () => {

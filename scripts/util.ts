@@ -1,5 +1,5 @@
 import csv from "csvtojson";
-import { nameType } from "./types";
+import { translateType } from "./types";
 
 export const readDataCsvFile = async (language: string) => {
   let all = await csv().fromFile(`./data/${language}.csv`);
@@ -27,7 +27,7 @@ function checkDataCsvKeys(language: string, keys: string[]) {
   }
   if (
     language === "en" &&
-    (keys[0] !== "ّFirst & Last name" ||
+    (keys[0] !== "First & Last name" ||
       keys[1] !== "Place of Arrest" ||
       keys[2] !== "Current Status" ||
       keys[3] !== "Type of Activity" ||
@@ -38,12 +38,12 @@ function checkDataCsvKeys(language: string, keys: string[]) {
 }
 
 export const readTranslateCsvFile = async (
-  filename: "names" | "details"
-): Promise<nameType[]> => {
+  filename: "name" | "details"
+): Promise<translateType[]> => {
   let all = await csv().fromFile(`./data/${filename}.csv`);
   all = all.map((item) => ({
-    nameFa: item.nameFa,
-    nameEn: item.nameEn,
+    fa: item.nameFa,
+    en: item.nameEn,
   }));
   return all;
 };

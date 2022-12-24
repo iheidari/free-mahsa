@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import provinces, { ProvinceType } from "../../fixtures/provinces";
+import provinces from "../../fixtures/provinces.json";
 import useTranslate from "../../hooks/useTranslate";
+import { ProvinceType } from "../../types";
 import { paths } from "./paths";
 import { getProvinceCount } from "./util";
 

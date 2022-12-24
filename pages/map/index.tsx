@@ -5,9 +5,9 @@ import Map from "../../components/Map";
 import Details from "../../components/Map/Details";
 import Translate from "../../components/Translate";
 import data from "../../data/output.json";
-import { ProvinceType } from "../../fixtures/provinces";
 import useTranslate from "../../hooks/useTranslate";
 import { sortArrested } from "../../services/sort";
+import { ProvinceType } from "../../types";
 
 const MapPage = () => {
   const { t } = useTranslate();
@@ -60,9 +60,7 @@ const MapPage = () => {
               </Translate>
             </a>
             <div>
-              <Translate>
-                اسامی به روز شده در بیست و هشتم آذر ساعت ۲ بعد از ظهر
-              </Translate>
+              <Translate>اسامی به روز شده دوم دی ساعت سه بعد از ظهر</Translate>
             </div>
           </div>
         </div>
