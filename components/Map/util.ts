@@ -1,4 +1,4 @@
-import provinces from "../../fixtures/provinces";
+import provinces from "../../fixtures/provinces.json";
 import data from "../../data/output.json";
 
 export const getProvinceCount = (provinceCode: string) => {

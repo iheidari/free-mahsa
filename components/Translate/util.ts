@@ -1,7 +1,7 @@
 import translation from "../../i18n/translation.json";
 import { namespacesType } from "../../i18n/types";
-import provinces from "../../fixtures/provinces";
-import cities from "../../fixtures/cities";
+import provinces from "../../fixtures/provinces.json";
+import cities from "../../fixtures/cities.json";
 import names from "../../i18n/name.json";
 import details from "../../i18n/details.json";
 

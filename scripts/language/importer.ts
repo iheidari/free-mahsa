@@ -1,14 +1,14 @@
 import { writeFile } from "fs/promises";
 import { translationType } from "../../i18n/types";
 import { readTranslateCsvFile } from "../util";
-import { detailsMapping, nameMapper } from "../mappings/mappingFa";
+import { detailsMapper, nameMapper } from "../mapping";
 import { translateType } from "../types";
 import all from "../../data/output.json";
 import { parse } from "json2csv";
 
 const importer = async () => {
   await importField("name", nameMapper);
-  await importField("details", detailsMapping);
+  await importField("details", detailsMapper);
 };
 
 const importField = async (
