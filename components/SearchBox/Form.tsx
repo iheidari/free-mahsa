@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useEffect } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import useTranslate from "../../hooks/useTranslate";
 
@@ -9,10 +9,15 @@ type Inputs = {
   q: string;
 };
 const Form = (props: Props, ref: React.ForwardedRef<HTMLInputElement>) => {
+  const { push, query } = useRouter();
   const { t } = useTranslate();
-  const { register, handleSubmit } = useForm<Inputs>();
+  const { register, handleSubmit, setValue } = useForm<Inputs>();
   const { ref: hookRef, ...rest } = register("q");
-  const { push } = useRouter();
+
+  useEffect(() => {
+    // set textsearch value with value from url
+    setValue("q", query.slug?.length === 1 ? query.slug[0] : "");
+  }, [query, setValue]);
 
   const handleFormSubmit: SubmitHandler<Inputs> = (data: Inputs) => {
     push(`/search/${data.q}`);
