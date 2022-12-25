@@ -48,7 +48,9 @@ const Cards = ({ rawData }: CardsProps) => {
     );
   });
   return (
-    <div className={`flex gap-16  flex-wrap justify-center`}>{components}</div>
+    <div className={`flex gap-16  flex-wrap justify-center mt-16`}>
+      {components}
+    </div>
   );
 };
 

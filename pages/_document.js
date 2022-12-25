@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html dir={"rtl"}>
+    <Html>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -21,6 +21,11 @@ export default function Document() {
         </Script>
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
           rel="stylesheet"
         />
       </Head>

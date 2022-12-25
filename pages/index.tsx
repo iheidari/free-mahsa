@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Cards from "../components/Cards";
 import Header from "../components/Header";
+import SearchBox from "../components/SearchBox";
 import Translate from "../components/Translate";
 import { sanityApi } from "../helpers/api";
 import useTranslate from "../hooks/useTranslate";
@@ -53,6 +54,9 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
               </a>
             </Link>
           </div>
+        </div>
+        <div className="w-full">
+          <SearchBox />
         </div>
         <Cards rawData={rawData} />
         <div className="mt-20 text-center">

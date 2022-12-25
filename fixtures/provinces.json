@@ -1,8 +1,16 @@
 [
   { "nameFa": "البرز", "nameEn": "Alborz", "code": "AL" },
   { "nameFa": "اردبیل", "nameEn": "Ardabil", "code": "AR" },
-  { "nameFa": "آذربایجان شرقی", "nameEn": "Azerbaijan, East", "code": "AS" },
-  { "nameFa": "آذربایجان غربی", "nameEn": "Azerbaijan, West", "code": "AQ" },
+  {
+    "nameFa": "آذربایجان شرقی",
+    "nameEn": "Azerbaijan, East",
+    "code": "AS"
+  },
+  {
+    "nameFa": "آذربایجان غربی",
+    "nameEn": "Azerbaijan, West",
+    "code": "AQ"
+  },
   { "nameFa": "بوشهر", "nameEn": "Bushehr", "code": "BU" },
   {
     "nameFa": "چهارمحال و بختیاری",
@@ -18,9 +26,21 @@
   { "nameFa": "اصفهان", "nameEn": "Isfahan", "code": "IS" },
   { "nameFa": "کرمان", "nameEn": "Kerman", "code": "KE" },
   { "nameFa": "کرمانشاه", "nameEn": "Kermanshah", "code": "KS" },
-  { "nameFa": "خراسان شمالی", "nameEn": "Khorasan, North", "code": "XS" },
-  { "nameFa": "خراسان رضوی", "nameEn": "Khorasan, Razavi", "code": "XR" },
-  { "nameFa": "خراسان جنوبی", "nameEn": "Khorasan, South", "code": "XJ" },
+  {
+    "nameFa": "خراسان شمالی",
+    "nameEn": "Khorasan, North",
+    "code": "XS"
+  },
+  {
+    "nameFa": "خراسان رضوی",
+    "nameEn": "Khorasan, Razavi",
+    "code": "XR"
+  },
+  {
+    "nameFa": "خراسان جنوبی",
+    "nameEn": "Khorasan, South",
+    "code": "XJ"
+  },
   { "nameFa": "خوزستان", "nameEn": "Khuzestan", "code": "XU" },
   {
     "nameFa": "کهگیلویه و بویراحمد",

@@ -1,0 +1,98 @@
+[
+  {
+    "title": "استان",
+    "items": [
+      {
+        "title": "تهران",
+        "slug": "/province/تهران",
+        "slugEn": "/province/tehran"
+      },
+      {
+        "title": "کردستان",
+        "slug": "/province/کردستان",
+        "slugEn": "/province/kurdistan"
+      },
+      {
+        "title": "سیستان و بلوچستان",
+        "slug": "/province/سیستان-بلوچستان",
+        "slugEn": "/province/sistan-baluchestan"
+      },
+      {
+        "title": "آذربایجان غربی",
+        "slug": "/province/آذربایجان-غربی",
+        "slugEn": "/province/west-azerbaijan"
+      },
+      {
+        "title": "خوزستان",
+        "slug": "/province/خوزستان",
+        "slugEn": "/province/khuzestan"
+      },
+      {
+        "title": "مازندران",
+        "slug": "/province/مازندران",
+        "slugEn": "/province/mazandaran"
+      },
+      {
+        "title": "کرمانشاه",
+        "slug": "/province/کرمانشاه",
+        "slugEn": "/province/kermanshah"
+      },
+      {
+        "title": "نقشه",
+        "slug": "/map",
+        "slugEn": "/map"
+      }
+    ]
+  },
+  {
+    "title": "وضعیت",
+    "items": [
+      {
+        "title": "مفقود",
+        "slug": "/status/مفقود",
+        "slugEn": "/status/missing"
+      },
+      {
+        "title": "زندانی",
+        "slug": "/status/زندانی",
+        "slugEn": "/status/imprisoned"
+      },
+      {
+        "title": "آزاد شد",
+        "slug": "/status/آزاد-شد",
+        "slugEn": "/status/released"
+      }
+    ]
+  },
+  {
+    "title": "فعالیت",
+    "items": [
+      {
+        "title": "کودک",
+        "slug": "/activity/کودک",
+        "slugEn": "/activity/minor"
+      },
+      {
+        "title": "دانشجو",
+        "slug": "/activity/دانشجو",
+        "slugEn": "/activity/student"
+      },
+      {
+        "title": "وکیل",
+        "slug": "/activity/وکیل",
+        "slugEn": "/activity/lawyer"
+      },
+      {
+        "title": "شهروند",
+        "slug": "/activity/شهروند",
+        "slugEn": "/activity/citizen"
+      },
+
+      {
+        "title": "روزنامه نگار",
+        "slug": "/activity/روزنامه-نگار",
+        "slugEn": "/activity/journalist"
+      }
+    ]
+  }
+]

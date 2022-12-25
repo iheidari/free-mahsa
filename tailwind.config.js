@@ -8,6 +8,8 @@ module.exports = {
     borderRadius: {
       "50p": "50px",
       "34p": "34px",
+      "5p": "5px",
+      "10p": "10px",
     },
     extend: {
       objectPosition: {
