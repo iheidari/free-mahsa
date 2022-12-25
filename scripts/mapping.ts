@@ -3,13 +3,16 @@ import cities from "../fixtures/cities.json";
 import nameMapping from "../fixtures/name-mapping.json";
 import cityMapping from "../fixtures/city-mapping.json";
 import detailsMapping from "../fixtures/details-mapping.json";
-
+import nameTranslation from "../i18n/name.json";
 const mapper = (input: IData, index: number) => {
   const city = cityMapper(input);
   const province = cities.find((cp) => cp.nameFa == city)?.provinceCode ?? "";
+  const name = nameMapper(input.name);
+  const nameEn = (nameTranslation as any)[name]?.en || name;
   return {
     id: index,
-    name: nameMapper(input.name),
+    name,
+    nameEn,
     city,
     province,
     status: statusMapping(input),
@@ -27,22 +30,14 @@ export const nameMapper = (name: string, _rawData?: IData): string => {
 
 const statusMapping = (rawData: IData) => {
   switch (rawData.status) {
-    case "آزاد شد با وثیقه":
-    case "آزادی با وثیقه":
-    case "با وثیقه آزاد شد":
-      return "آزادی با وثیقه";
-
-    case "آزد شد":
-    case "ازاد شد":
     case "آزاد شد":
       return "آزاد شد";
-
     case "مفقود":
-    case "ناپدید":
-      return "ناپدید";
+      return "مفقود";
     case "زندانی":
-    case "بازداشت شد":
       return "زندانی";
+    case "در بازداشت کشته شد":
+      return "در بازداشت کشته شد";
     default: {
       console.warn(`No map for ${rawData.name} status: ${rawData.status}`);
       return "زندانی";

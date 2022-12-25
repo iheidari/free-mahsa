@@ -10,7 +10,10 @@ type Props = {};
 const Header = (props: Props) => {
   const { t } = useTranslate();
   return (
-    <header className="flex w-full pt-4 mb-2 bg-slate-300 justify-center">
+    <header
+      className="flex w-full pt-4 mb-2 bg-slate-300 justify-center"
+      dir="rtl"
+    >
       <div className="flex w-full max-w-6xl flex-row justify-between items-center">
         <div className="px-4">
           <SwitchLanguage />

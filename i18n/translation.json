@@ -1,6 +1,7 @@
 {
   "EN": { "en": "فا" },
   "rtl": { "en": "ltr" },
+  "Noto Naskh Arabic": { "en": "Poppins" },
 
   "زن زندگی آزادی": { "en": "Woman Life Freedom" },
   "نقشه دستگیر شده ها": { "en": "Detainees Map" },
@@ -18,11 +19,19 @@
   "اسامی به روز شده دوم دی ساعت سه بعد از ظهر": {
     "en": "Updated on December 23th at 3:00 pm"
   },
-  "آزادی با وثیقه": { "en": "Released by bail" },
+
+  "جستجو": { "en": "Search" },
+  "نقشه": { "en": "Map" },
+  "استان": { "en": "Province" },
+  "وضعیت": { "en": "Status" },
+  "فعالیت": { "en": "Activity" },
+  "کودک": { "en": "Minor" },
+
   "آزاد شد": { "en": "Released" },
-  "آزاد": { "en": "Released" },
-  "ناپدید": { "en": "Missing" },
+  "مفقود": { "en": "Missing" },
   "زندانی": { "en": "Imprisoned" },
+  "در بازداشت کشته شد": { "en": "Died in Prison" },
+
   "دانشجو": { "en": "University student" },
   "وکیل": { "en": "Lawyer" },
   "زندان": { "en": "Detainee" },
