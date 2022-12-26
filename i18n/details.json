@@ -53,6 +53,9 @@
   "۳۲ ساله - زندان فشافویه": {
     "en": "20-year-old, Fashafouyeh Prison"
   },
+  "آتشنشان": {
+    "en": "Firefighter"
+  },
   "آرایشگر": {
     "en": "Hair stylist"
   },
@@ -68,6 +71,9 @@
   "استاد دانشگاه الزهرا": {
     "en": "Al-Zahra University professor"
   },
+  "استاد و مربی یوگای": {
+    "en": "Yoga teacher and instructor"
+  },
   "استادیار دانشگاه آزاد": {
     "en": "Assistant Professor of Azad University"
   },
@@ -76,6 +82,9 @@
   },
   "اقتصاددان": {
     "en": "Economist"
+  },
+  "اکباتان": {
+    "en": "Ekbatan"
   },
   "انجمن صنفی": {
     "en": "Union member"
@@ -91,6 +100,12 @@
   },
   "اهل کرمانشاه": {
     "en": "From Kermanshah"
+  },
+  "اهل لرستان": {
+    "en": "From Lorestan"
+  },
+  "اهل همدان": {
+    "en": "from Hamadan"
   },
   "اوین": {
     "en": "Evin"
@@ -116,6 +131,12 @@
   "بازداشت دوباره": {
     "en": "Re-arrest"
   },
+  "بازداشت دوباره - دیزل آباد کرمانشاه": {
+    "en": "Arrested again - Diesel Abad, Kermanshah"
+  },
+  "بازداشت دوم": {
+    "en": "Second arrest"
+  },
   "بازیکن تیم فوتبال پرسپولیس": {
     "en": "Persepolis football team player"
   },
@@ -133,6 +154,12 @@
   },
   "بازیگر سینما": {
     "en": "Actor"
+  },
+  "بازیگر و هنرمند تئاتر": {
+    "en": "Actor and theater artist"
+  },
+  "بازیگر، کارگردان تئاتر و سرپرست گروه هنری هیچ - اکباتان": {
+    "en": "Actor, theater director and head of the Hitch art group, Ekbatan,Tehran"
   },
   "بخاطر ساخت کلیپ گل دادن به مردم": {
     "en": "For making a clip of giving flowers to people"
@@ -164,6 +191,9 @@
   "بند زنان زندان مراغه": {
     "en": "Women's Ward of Maragheh Prison"
   },
+  "بهایی": {
+    "en": "Bahaei"
+  },
   "بیماری تالاسمی": {
     "en": "Thalassemia disease"
   },
@@ -188,8 +218,17 @@
   "پرستار اهل سنندج": {
     "en": "Nurse from Sanandaj"
   },
+  "پرونده اکباتان": {
+    "en": "Ekbatan's case"
+  },
+  "پرونده اکباتان- به همراه همسر و دو پسرش دستگیر شده": {
+    "en": "Ekbatan case - he was arrested along with his wife and two sons"
+  },
   "پرونده در دادگاه انقلاب قزوین": {
     "en": "Case in Qazvin Revolutionary Court"
+  },
+  "پرونده‌ی ۲۵ آبان در اصفهان": {
+    "en": "The case of November 16th in Isfahan"
   },
   "پزشک": {
     "en": "Doctor"
@@ -203,11 +242,23 @@
   "پژوهشگر و مستندساز": {
     "en": "Researcher and documentary maker"
   },
+  "پس از آزادی در بیمارستان جان باخت": {
+    "en": "He died in the hospital after his release"
+  },
+  "پس از آزدای با وثیقه به بیمارستان منتقل\n شد و سپس جان باخت": {
+    "en": "After being released on bail, he was taken to the hospital and then died"
+  },
   "پیرو آئین یارسان": {
     "en": "Yarsan(Religious minority)"
   },
   "تاریخ کشته شدن: ۱۷ آذر": {
     "en": "Killed date: December 8th, 2022"
+  },
+  "تبعه افغانستان": {
+    "en": "Citizen of Afghanistan"
+  },
+  "تتوکار": {
+    "en": "Tattoo artist"
   },
   "تجمع مقابل بیمارستان سینا برای حسین رونقی": {
     "en": "Gathering in front of Sinai Hospital for Hossein Ronagi"
@@ -230,6 +281,9 @@
   "خبرنگار حوزه کارگری ایلنا": {
     "en": "Ilana labor reporter"
   },
+  "خبرنگار خبرگزاری ایرنا": {
+    "en": "Reporter of IRNA news agency"
+  },
   "خبرنگار صداوسیما": {
     "en": "IRIB reporter"
   },
@@ -239,6 +293,12 @@
   "خلبان هواپیمایی ایران ایر": {
     "en": "Pilot of Iran Air"
   },
+  "خوانند رپ- اکباتان": {
+    "en": "Rap singer - Ekbatan"
+  },
+  "خواننده اهل کرمانشاه و آهنگساز": {
+    "en": "Singer from Kermanshah and composer"
+  },
   "خواننده رپ": {
     "en": "Rapper"
   },
@@ -247,6 +307,9 @@
   },
   "خواننده لر": {
     "en": "Lorish singer"
+  },
+  "خواننده ماکان بند": {
+    "en": "Makan band singer"
   },
   "خواننده هیپ هاپ": {
     "en": "Hip-hop singer"
@@ -266,17 +329,23 @@
   "دانش آموز": {
     "en": "Student"
   },
+  "دانش آموز ۱۵ ساله": {
+    "en": "15-year-old student"
+  },
   "دانش آموز مدرسه پژوهش": {
     "en": "Pajouhesh school student"
   },
-  "دانش آموز ۱۵ ساله": {
-    "en": "15-year-old student"
+  "دانش‌آموخته‌ی رشته‌ی فرش دانشگاه هنر تهران و کارشناس دادگستری": {
+    "en": "Graduated from the field of carpets at Tehran University of Art and a judicial expert"
   },
   "دانش‌آموز ۱۶ سال": {
     "en": "16-year-old student"
   },
   "دانش‌آموز ۱۷ ساله": {
     "en": "17-year-old student"
+  },
+  "دانشجوی رشته مهندسی صنایع دانشگاه کردستان": {
+    "en": "Industrial engineering student of Kurdistan University"
   },
   "دانشجوی علوم پزشکی کردستان": {
     "en": "Kurdistan medical science student"
@@ -614,6 +683,9 @@
   "دانشگاه فنی شمسی‌پور تهران": {
     "en": "Shamsipour University of Technology, Tehran"
   },
+  "دانشگاه قدسیه ساری": {
+    "en": "Qodsieh University of Sari"
+  },
   "دانشگاه کردستان": {
     "en": "The University of Kordestan"
   },
@@ -728,11 +800,17 @@
   "درویش یارسان": {
     "en": "Darvish Yarsan"
   },
+  "دستگیر شده در شهرک اکباتان- ۳۲ ساله": {
+    "en": "Arrested in Ekbatan - 32 years old"
+  },
   "دستگیر شده در شهرک اکباتان- ۳۴ ساله": {
     "en": "Arrested in Ekbatan - 34 years old"
   },
-  "دستگیر شده در شهرک اکباتان- ۳۲ ساله": {
-    "en": "Arrested in Ekbatan - 32 years old"
+  "دستگیرشده در باغ سپهسالار تهران": {
+    "en": "Arrested in Sepehsalar Garden, Tehran"
+  },
+  "دستگیری در اکباتان": {
+    "en": "Arrest in Ekbatan"
   },
   "دکتر داروساز": {
     "en": "Pharmacist"
@@ -743,6 +821,9 @@
   "دوست دختر بهنام لایق پور": {
     "en": "Girlfriend of Behnam Laikpour"
   },
+  "دیزل آباد کرمانشاه": {
+    "en": "Diesel Abad, Kermanshah"
+  },
   "رئیس سازمان نظام پزشکی": {
     "en": "Head of the medical system organization"
   },
@@ -751,6 +832,12 @@
   },
   "رزیدنت زنان در بیمارستان  افضلی پور کرمان دستگیر شده": {
     "en": "Gynecologist resident, was arrested in Afzalipur Hospital in Kerman"
+  },
+  "روانشناس": {
+    "en": "Psychologist"
+  },
+  "روانشناس بالینی واقع در کلینیک ترک اعتیاد": {
+    "en": "Clinical psychologist located in addiction treatment clinic"
   },
   "روانشناس و مدیر یک مرکز مشاوره": {
     "en": "Psychologist and director of a counseling center"
@@ -872,6 +959,9 @@
   "شاعر و عضو کانون نویسندگان": {
     "en": "Poet and member of the Writers Association"
   },
+  "شاعر و فعال مدنی": {
+    "en": "Poet and civil activist"
+  },
   "شاعر و مسئول انجمن شعر و ادب ماسال": {
     "en": "Poet and head of poetry and literature association"
   },
@@ -908,8 +998,14 @@
   "عضو کانون صنفی معلمان": {
     "en": "A member of the teachers union"
   },
+  "عضو گروه پدافند هوایی ارتش در آبدانان": {
+    "en": "A member of the army's air defense group in Abdanan"
+  },
   "عضو مجمع یارسان": {
     "en": "Member of the Yarsan Assembly"
+  },
+  "عضو هئیت مدیره انجمن فرهنگی – اجتماعی نوژین": {
+    "en": "Member of the Board of Directors of Nozhin Cultural-Social Association"
   },
   "عضو هیئت مدیره سندیکای شرکت واحد": {
     "en": "Member of the board of directors of bus drivers syndicate"
@@ -920,6 +1016,9 @@
   "عضو هیات دبیران کانون نویسندگان": {
     "en": "Member of the Board of Directors of Writers' Association"
   },
+  "عضو هیات مدیره کانون صنفی معلمان بوشهر": {
+    "en": "Member of the Board of Directors of the Bushehr Teachers Union"
+  },
   "عکاس": {
     "en": "Photographer"
   },
@@ -928,6 +1027,9 @@
   },
   "عکاس خبرنگار": {
     "en": "photojournalist"
+  },
+  "عکاس و فیلم بردار": {
+    "en": "Photographer and Cinematograph"
   },
   "علو م پزشکی دانشگاه آزاد": {
     "en": "Medical Sciences of Azad University"
@@ -941,6 +1043,9 @@
   "فارغ التحصیل دانشگاه شریف- زندان فشافویه": {
     "en": "Graduated from Sharif University - Fashafuye Prison"
   },
+  "فارغ التحصیل طراحی پارچه از دانشگاه تهران": {
+    "en": "Graduated in textile design from Tehran University"
+  },
   "فرانسوی": {
     "en": "French"
   },
@@ -949,6 +1054,9 @@
   },
   "فرزند: محمد امین": {
     "en": "Dad: Mohammad Amin"
+  },
+  "فشافویه اکباتان": {
+    "en": "Fashafuye Ekbatan"
   },
   "فعال آزادی اینترنت": {
     "en": "Internet freedom activist"
@@ -1007,6 +1115,9 @@
   "فعال کارگری": {
     "en": "Labor rights activist"
   },
+  "فعال کارگری و از اعضای کانون کودکان مریوان": {
+    "en": "Labor activist and member of Marivan Children's Center"
+  },
   "فعال کرد": {
     "en": "Kurdish Activist"
   },
@@ -1022,6 +1133,9 @@
   "فعال مدنی و ادبی کُرد": {
     "en": "Kurdish Civil and Literary activist"
   },
+  "فعال مدنی و کنشگر محیط زیست": {
+    "en": "Civil activist and environmental activist"
+  },
   "فعال مدنی و متخصص تکنولوژی": {
     "en": "Civil Activist and IT expert"
   },
@@ -1030,6 +1144,9 @@
   },
   "فعال یارسان- بازداشت دوباره": {
     "en": "Yarsan(Religious minority) activist, second arrest"
+  },
+  "فوتبالیست": {
+    "en": "Soccer player"
   },
   "فوتبالیست کرد": {
     "en": "Kourdish Soccer player"
@@ -1118,6 +1235,9 @@
   "مترجم": {
     "en": "Translator"
   },
+  "مترجم زبان چینی": {
+    "en": "Chinese language translator"
+  },
   "مترجم فیلمساز و انیماتور": {
     "en": "Translator, filmmaker and animator"
   },
@@ -1132,6 +1252,9 @@
   },
   "مداح": {
     "en": "Religious singer"
+  },
+  "مدافع حقوق زندانیان و زنان بی‌سرپرست": {
+    "en": "Defender of the rights of prisoners and homeless women"
   },
   "مدرس موسیقی": {
     "en": "Music teacher"
@@ -1193,11 +1316,26 @@
   "منجم و همکار مجله نجوم": {
     "en": "Astronomer and contributor to Nojoom magazine"
   },
+  "موسسه آموزش عالی حکمت رضوی": {
+    "en": "Hikmat Razavi Institute of Higher Education"
+  },
   "نانوا": {
     "en": "Baker"
   },
   "نقاش": {
     "en": "Painter"
+  },
+  "نوازنده گیتار": {
+    "en": "Guitarist"
+  },
+  "نوازنده نی": {
+    "en": "reed player"
+  },
+  "نوازنده و آهنگساز": {
+    "en": "Musician and composer"
+  },
+  "نوازنده و مدیر آموزشگاه موسیقی": {
+    "en": "Musician and director of music school"
   },
   "نوجوان": {
     "en": "Teenager"
@@ -1223,11 +1361,17 @@
   "هکر و فعال حقوق دیجیتال": {
     "en": "Hacker and digital rights activist"
   },
+  "همسر آیدا راستی": {
+    "en": "Ida Rasti's wife"
+  },
   "هنرپیشه تئاتر - نازی فاطمه حبیبی": {
     "en": "Theater actress - Nazi Fatima Habibi"
   },
   "هنرمند": {
     "en": "Artist"
+  },
+  "هنرمند تئاتر": {
+    "en": "Theater artist"
   },
   "هنرمند گرافیست": {
     "en": "Graphic artist"
@@ -1238,6 +1382,9 @@
   "هنرمند و بازیگر تئاتر": {
     "en": "Theater artist and actor"
   },
+  "هنرمند و بازیگر تئاتر، اکباتان": {
+    "en": "Theater artist and actor, Ekbatan"
+  },
   "هنرمند و عکاس": {
     "en": "Artist and photographer"
   },
@@ -1246,6 +1393,9 @@
   },
   "هنرمند و مجری سابق تلویزیون": {
     "en": "Artist and former TV presenter"
+  },
+  "هنرمند و مجری سابق تلویزیون- اکباتان": {
+    "en": "Artist and former TV presenter - Ekbatan"
   },
   "هنرمند و نقاش": {
     "en": "Artist and painter"
@@ -1271,70 +1421,5 @@
   "یارسان": {
     "en": "Yarsan(Religious minority)"
   },
-  "دانشگاه قدسیه ساری": {
-    "en": "Qodsieh University of Sari"
-  },
-  "خبرنگار خبرگزاری ایرنا": {
-    "en": "Reporter of IRNA news agency"
-  },
-  "بازداشت دوباره - دیزل آباد کرمانشاه": {
-    "en": "Arrested again - Diesel Abad, Kermanshah"
-  },
-  "دیزل آباد کرمانشاه": {
-    "en": "Diesel Abad, Kermanshah"
-  },
-  "فعال مدنی و کنشگر محیط زیست": {
-    "en": "Civil activist and environmental activist"
-  },
-  "عضو هیات مدیره کانون صنفی معلمان بوشهر": {
-    "en": "Member of the Board of Directors of the Bushehr Teachers Union"
-  },
-  "عضو هئیت مدیره انجمن فرهنگی – اجتماعی نوژین": {
-    "en": "Member of the Board of Directors of Nozhin Cultural-Social Association"
-  },
-  "فشافویه اکباتان": {
-    "en": "Fashafuye Ekbatan"
-  },
-  "خوانند رپ- اکباتان": {
-    "en": "Rap singer - Ekbatan"
-  },
-  "هنرمند و مجری سابق تلویزیون- اکباتان": {
-    "en": "Artist and former TV presenter - Ekbatan"
-  },
-  "دستگیری در اکباتان": {
-    "en": "Arrest in Ekbatan"
-  },
-  "هنرمند و بازیگر تئاتر، اکباتان": {
-    "en": "Theater artist and actor, Ekbatan"
-  },
-  "اهل لرستان": {
-    "en": "From Lorestan"
-  },
-  "بازیگر و هنرمند تئاتر": {
-    "en": "Actor and theater artist"
-  },
-  "اکباتان": {
-    "en": "Ekbatan"
-  },
-  "پرونده‌ی ۲۵ آبان در اصفهان": {
-    "en": "The case of November 16th in Isfahan"
-  },
-  "تبعه افغانستان": {
-    "en": "Citizen of Afghanistan"
-  },
-  "عضو گروه پدافند هوایی ارتش در آبدانان": {
-    "en": "A member of the army's air defense group in Abdanan"
-  },
-  "خواننده ماکان بند": {
-    "en": "Makan band singer"
-  },
-  "پس از آزدای با وثیقه به بیمارستان منتقل\n شد و سپس جان باخت": {
-    "en": "After being released on bail, he was taken to the hospital and then died"
-  },
-  "پرونده اکباتان": {
-    "en": "Ekbatan's case"
-  },
-  "": {
-    "en": ""
-  }
+  "": {}
 }

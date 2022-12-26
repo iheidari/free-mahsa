@@ -1,9 +1,9 @@
 import { writeFile } from "fs/promises";
-import { translationType } from "../../i18n/types";
-import { readTranslateCsvFile } from "../util";
-import { detailsMapper, nameMapper } from "../mapping";
-import { translateType } from "../types";
-import all from "../../data/output.json";
+import { translationType } from "../i18n/types";
+import { readTranslateCsvFile } from "./util";
+import { detailsMapper, nameMapper } from "./mapping";
+import { translateType } from "./types";
+import all from "../data/output.json";
 import { parse } from "json2csv";
 
 const importer = async () => {
@@ -28,11 +28,11 @@ const importField = async (
   //import all and remove the duplicates
   const dataField: translateType[] = all
     // import all
-    .map((item) => item[field])
+    .map((item) => mapper(item[field]))
     // remove duplicates
     .reduce((acc: string[], cur: string) => {
-      if (!acc.includes(cur.trim())) {
-        acc.push(cur.trim());
+      if (!acc.includes(cur)) {
+        acc.push(cur);
       }
       return acc;
     }, [])
@@ -49,8 +49,23 @@ const importField = async (
     }
   });
 
+  const uniqueCsvField = csvField.reduce(
+    (acc: translateType[], cur: translateType) => {
+      const index = acc.findIndex((item) => item.fa == cur.fa);
+      if (index === -1) {
+        acc.push(cur);
+      } else {
+        if (cur.en) {
+          acc[index].en = cur.en;
+        }
+      }
+      return acc;
+    },
+    []
+  );
+
   // convert to translation JSON format
-  const translatedJson = csvField.reduce((acc: translationType, cur) => {
+  const translatedJson = uniqueCsvField.reduce((acc: translationType, cur) => {
     if (!acc[cur.fa]) {
       acc[cur.fa] = { en: cur.en };
     }
@@ -64,7 +79,10 @@ const importField = async (
   );
   console.log(`Wrote ${csvField.length} to ${field}.json`);
 
-  const csv = parse(csvField, { fields: ["nameFa", "nameEn"] });
+  const csv = parse(
+    uniqueCsvField.sort((cnp1, cnp2) => cnp1.fa.localeCompare(cnp2.fa)),
+    { fields: ["fa", "en"] }
+  );
   await writeFile(`./data/${field}-new.csv`, csv);
 };
 

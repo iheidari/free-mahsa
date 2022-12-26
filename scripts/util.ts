@@ -42,8 +42,8 @@ export const readTranslateCsvFile = async (
 ): Promise<translateType[]> => {
   let all = await csv().fromFile(`./data/${filename}.csv`);
   all = all.map((item) => ({
-    fa: item.nameFa,
-    en: item.nameEn,
+    fa: item.fa,
+    en: item.en,
   }));
   return all;
 };
