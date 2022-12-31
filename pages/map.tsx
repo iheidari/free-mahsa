@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import Cards from "../../components/Cards-Arrested";
-import Header from "../../components/Header";
-import Map from "../../components/Map";
-import Details from "../../components/Map/Details";
-import Translate from "../../components/Translate";
-import data from "../../data/output.json";
-import useTranslate from "../../hooks/useTranslate";
-import { sortArrested } from "../../services/sort";
-import { ProvinceType } from "../../types";
+import Cards from "../components/Cards-Arrested/Cards";
+import Header from "../components/Header/Header";
+import Map from "../components/Map/Map";
+import Details from "../components/Map/Details";
+import Translate from "../components/Translate/Translate";
+import data from "../data/output.json";
+import useTranslate from "../hooks/useTranslate";
+import { sortArrested } from "../services/sort";
+import { ProvinceType } from "../types";
 
 const MapPage = () => {
   const { t } = useTranslate();
@@ -60,7 +60,7 @@ const MapPage = () => {
               </Translate>
             </a>
             <div>
-              <Translate>اسامی به روز شده چهارم دی ساعت ۱۰ شب</Translate>
+              <Translate>اسامی به روز شده نهم دی ساعت هشت شب</Translate>
             </div>
           </div>
         </div>

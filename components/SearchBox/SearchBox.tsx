@@ -24,7 +24,7 @@ const SearchBox = (props: Props) => {
 
   return (
     <div className="flex justify-center">
-      <div className="w-2/4 max-w-2xl">
+      <div className="max-w-2xl w-full xl:w-2/4 px-3">
         <Form ref={searchboxRef} />
         {showPopup && <Popup ref={popupRef} />}
       </div>

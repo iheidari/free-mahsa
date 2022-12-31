@@ -6,7 +6,7 @@ import names from "../i18n/name.json";
 import { writeFile } from "fs/promises";
 
 const readFarsi = async () => {
-  let all = await readDataCsvFile("fa");
+  let all = await readDataCsvFile();
   console.log("🚀 ~ jsonArray", all.length);
 
   all = all.filter((data) => data.name);
