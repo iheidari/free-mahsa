@@ -52,6 +52,7 @@ const readFarsi = async () => {
   });
 
   console.log("Cities With No Province: " + cityWithNoProvince.length);
+  cityWithNoProvince.forEach((cwnp) => console.log(cwnp));
 
   const allCityProvinces = [
     ...cities.filter((city) => city.provinceCode),

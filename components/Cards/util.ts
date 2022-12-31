@@ -1,26 +1,28 @@
 import { CardProps } from "./Card";
-export const convert = (data: any): CardProps => {
-  const seconds = new Date(getCorrectTime(data)).setSeconds(
-    Math.floor(Math.random() * 60)
-  );
-  const slogan = getSlogan(data);
-  const image =
-    (data.images && data.images[0].asset.url) ||
-    (data.status === "killed" ? "/images/free.jpg" : "/images/arrested.jpg");
-  return {
-    name: data.nameFa,
-    image: image,
-    timer: {
-      seconds: seconds,
-      text: slogan,
-    },
-    status: data.status,
-    link: data.urls?.length ? data.urls[0] : "",
+export const convert =
+  (isLatin: boolean) =>
+  (data: any): CardProps => {
+    const seconds = new Date(getCorrectTime(data)).setSeconds(
+      Math.floor(Math.random() * 60)
+    );
+    const slogan = getSlogan(isLatin)(data);
+    const image =
+      (data.images && data.images[0].asset.url) ||
+      (data.status === "کشته شد" ? "/images/free.jpg" : "/images/arrested.jpg");
+    return {
+      name: isLatin ? data.nameEn : data.nameFa,
+      image: image,
+      timer: {
+        seconds: seconds,
+        text: slogan,
+      },
+      status: data.status,
+      link: data.urls?.length ? data.urls[0] : "",
+    };
   };
-};
 
 const getCorrectTime = (data: any): Date => {
-  if (data.status === "killed") {
+  if (data.status === "کشته شد") {
     if (data.birthDate) {
       return data.birthDate;
     }
@@ -28,20 +30,30 @@ const getCorrectTime = (data: any): Date => {
   }
   return data.arrestDate;
 };
-const getSlogan = (data: any) => {
-  if (data.sloganFa) {
-    return data.sloganFa;
-  }
-  if (data.status === "killed") {
+const getFirstName = (name: string) => {
+  return name.split(" ")[0];
+};
+const getSlogan = (isLatin: boolean) => (data: any) => {
+  const name = getFirstName(isLatin ? data.nameEn : data.nameFa);
+
+  if (data.status === "کشته شد") {
     if (data.birthDate) {
-      return `${data.nameFa} امروز چند ساله بود؟`;
+      return isLatin
+        ? `How old was ${name} today?`
+        : `${name} امروز چند ساله بود؟`;
     }
-    return `چند وقته ${data.nameFa} از پیشمون رفته؟`;
+    return isLatin
+      ? `How long is ${name} not with us?`
+      : `چند وقته ${name} از پیشمون رفته؟`;
   }
-  if (data.status === "lost") {
-    return `چند وقته از ${data.nameFa} خبر نداریم؟`;
+  if (data.status === "مفقود") {
+    return isLatin
+      ? `How long is ${name} lost?`
+      : `چند وقته از ${name} خبر نداریم؟`;
   }
-  return `چند وقته ${data.nameFa} آزاد نیست؟`;
+  return isLatin
+    ? `How long is ${name} not free?`
+    : `چند وقته ${name} آزاد نیست؟`;
 };
 
 export const shuffle = (inputArray: any) => {

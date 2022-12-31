@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import useTranslate from "../../hooks/useTranslate";
 import Card, { CardProps, CardStatus } from "./Card";
 import { convert, shuffle } from "./util";
 
@@ -7,6 +8,7 @@ type CardsProps = {
 };
 
 const Cards = ({ rawData }: CardsProps) => {
+  const { isLatin } = useTranslate();
   const [time, setTime] = useState(new Date().getTime());
 
   useEffect(() => {
@@ -23,7 +25,7 @@ const Cards = ({ rawData }: CardsProps) => {
     setData(
       shuffle(rawData)
         .sort((a, b) => (a.promote === b.promote ? 0 : a.promote ? -1 : 1))
-        .map((d: any) => convert(d))
+        .map((d: any) => convert(isLatin)(d))
     );
   }, [rawData]);
 

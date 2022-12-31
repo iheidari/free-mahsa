@@ -27,11 +27,19 @@
   "فعالیت": { "en": "Activity" },
   "کودک": { "en": "Minor" },
 
+  "سال": { "en": "yr" },
+  "ماه": { "en": "mon" },
+  "روز": { "en": "day" },
+  "ساعت": { "en": "hr" },
+  "دقیقه": { "en": "min" },
+  "ثانیه": { "en": "sec" },
+
   "آزاد": { "en": "Released" },
   "آزاد شد": { "en": "Released" },
   "مفقود": { "en": "Missing" },
   "زندانی": { "en": "Imprisoned" },
   "در بازداشت کشته شد": { "en": "Died in Prison" },
+  "کشته شد": { "en": "Killed" },
 
   "دانشجو": { "en": "University student" },
   "وکیل": { "en": "Lawyer" },

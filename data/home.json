@@ -1,0 +1,1002 @@
+[
+  {
+    "arrestDate": "2022-09-30T09:07:00.000Z",
+    "isReady": true,
+    "nameEn": "Mohammad Boroghani",
+    "nameFa": "محمد بروغنی",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T07:48:07Z",
+    "_id": "1fde7f29-a9f0-4fed-bd81-ff52f01bdd7e",
+    "_updatedAt": "2022-11-01T08:18:38Z",
+    "arrestDate": "2022-10-27T20:48:00.000Z",
+    "birthDate": "2005-07-20T19:50:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/62baac079cb356db570160963eeb0476c05093bb-720x712.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/62baac079cb356db570160963eeb0476c05093bb-720x712.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Soheil Khoshdel",
+    "nameFa": "سهیل خوشدل",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T08:12:02Z",
+    "_id": "3be54432-4c82-460a-90d1-858e9807b791",
+    "_updatedAt": "2022-11-01T09:05:15Z",
+    "arrestDate": "2022-09-21T20:10:00.000Z",
+    "birthDate": "2000-01-24T23:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/09cfcd01e9f21d3a02310b7497e8ef380b3334eb-474x474.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/09cfcd01e9f21d3a02310b7497e8ef380b3334eb-474x474.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Mohammad Ghobadloo",
+    "nameFa": "محمد قبادلو",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T09:03:50Z",
+    "_id": "4eaed6a4-17a9-47ae-8c1d-9b87af6c212a",
+    "_updatedAt": "2022-11-01T09:05:29Z",
+    "arrestDate": "2022-10-02T09:04:00.000Z",
+    "birthDate": null,
+    "images": null,
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Saeid Shirazi",
+    "nameFa": "سعید شیرازی",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T09:01:43Z",
+    "_id": "7fb01d64-a471-4b8c-9ab5-a3d3a03e624b",
+    "_updatedAt": "2022-11-01T09:02:57Z",
+    "arrestDate": "2022-10-01T09:02:00.000Z",
+    "birthDate": null,
+    "images": null,
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Mohsen Rezazadeh Gharaghloo",
+    "nameFa": "محسن رضازاده قراقلو ",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T09:13:38Z",
+    "_id": "8f2ede02-98ec-4bee-bdfb-11eaa0e572d4",
+    "_updatedAt": "2022-11-01T09:13:38Z",
+    "arrestDate": "2022-10-10T09:11:00.000Z",
+    "birthDate": null,
+    "images": null,
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Abolfazl Mehri",
+    "nameFa": "ابوالفضل مهری حسین حاجی‌لو",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T08:56:28Z",
+    "_id": "b6fa31d8-aefc-4a1a-9025-5463d4597924",
+    "_updatedAt": "2022-11-01T09:00:52Z",
+    "arrestDate": "2022-10-08T09:00:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/2932638d0b55fa1538e6973d4fdca102e98088b3-712x572.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/2932638d0b55fa1538e6973d4fdca102e98088b3-712x572.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Saman Seydi",
+    "nameFa": "سامان صیدی",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-11-01T09:16:31Z",
+    "_id": "ecada32b-90b5-4997-b693-e6f2f81b1d92",
+    "_updatedAt": "2022-11-01T09:23:01Z",
+    "arrestDate": "2022-10-12T09:21:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/6747921b37e6d03e34878d249ee10b242f01c8b0-351x374.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/6747921b37e6d03e34878d249ee10b242f01c8b0-351x374.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Manoochehr Mehmannavaz",
+    "nameFa": "منوچهر مهمان نواز",
+    "promote": true,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-26T23:10:57Z",
+    "_id": "0c4be9d6-9303-4f32-9859-f63a7dded5b0",
+    "_updatedAt": "2022-11-01T09:30:17Z",
+    "arrestDate": "2022-09-21T23:12:00.000Z",
+    "birthDate": "1964-03-30T03:36:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/7a71011043ec513517e2246f64d2c644db2f924f-306x355.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/7a71011043ec513517e2246f64d2c644db2f924f-306x355.png"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Fateme Sepehri",
+    "nameFa": "فاطمه سپهری",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%81%D8%A7%D8%B7%D9%85%D9%87_%D8%B3%D9%BE%D9%87%D8%B1%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T20:25:59Z",
+    "_id": "11798473-0546-4998-97f9-b6104417e391",
+    "_updatedAt": "2022-11-01T09:27:54Z",
+    "arrestDate": null,
+    "birthDate": "2002-08-13T08:43:00.000Z",
+    "descriptionEn": "Shahoo Khezri was shot by security forces in Mahabad on 27th of October 2022. He was buried in ShilanAbad village on 28th of October.",
+    "descriptionFa": "شاهو_خضری ۵ آبان ۱۴۰۱ در جریان اعتراضات مهاباد با شلیک نیروهای سرکوبگر جمهوری اسلامی کشته شد.\nمراسم خاکسپاری وی در تاریخ 6 آبان ماه در روستای شیلان آباد برگزار شد.",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/a6ff77032dd0fe0d226d742c006ffb6cc68cd196-1080x1344.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/a6ff77032dd0fe0d226d742c006ffb6cc68cd196-1080x1344.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/533cda6bcddbd51687f9827fd4dda7ee1713ee94-822x780.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/533cda6bcddbd51687f9827fd4dda7ee1713ee94-822x780.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-27T20:12:00.000Z",
+    "nameEn": "Shahoo Khezri",
+    "nameFa": "شاهو خضری",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://twitter.com/SamRasoulpour/status/1585947840886755330?s=20&t=FQk51El0C3-RF9axvYZMKQ"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T23:14:25Z",
+    "_id": "1f240654-5b25-4b12-9be2-f96837456f99",
+    "_updatedAt": "2022-11-01T09:30:03Z",
+    "arrestDate": null,
+    "birthDate": "2000-01-05T23:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/452d657a4d2d632a50db8d0090bfc3e7b65094a9-311x371.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/452d657a4d2d632a50db8d0090bfc3e7b65094a9-311x371.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/49732a269c2b60aee914f5648095348d99f9d4ff-265x378.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/49732a269c2b60aee914f5648095348d99f9d4ff-265x378.png"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-21T23:14:00.000Z",
+    "nameEn": "Hadis Najafi",
+    "nameFa": "حدیث نجفی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%AD%D8%AF%DB%8C%D8%AB_%D9%86%D8%AC%D9%81%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T07:11:25Z",
+    "_id": "1fffbc18-6a18-42b6-94f7-018dca48adb2",
+    "_updatedAt": "2022-11-01T09:26:34Z",
+    "arrestDate": null,
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/c1cd968ef77ad281c65b9cf33e6023540d76b153-680x383.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/c1cd968ef77ad281c65b9cf33e6023540d76b153-680x383.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-30T18:10:00.000Z",
+    "nameEn": "Kumar Daroftade",
+    "nameFa": "کومار درافتاده",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%DA%A9%D9%88%D9%85%D8%A7%D8%B1_%D8%AF%D8%B1%D8%A7%D9%81%D8%AA%D8%A7%D8%AF%D9%87"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T07:45:50Z",
+    "_id": "251af190-e0cb-4aa8-80d9-10745d44c49c",
+    "_updatedAt": "2022-11-01T09:28:19Z",
+    "arrestDate": "2022-10-25T23:52:00.000Z",
+    "birthDate": "2002-10-29T21:46:00.000Z",
+    "descriptionFa": "جوان ۱۹ ساله مهرشاد شهیدی سرآشپز موفق، روز ۳ آبان در اراک بازداشت شد، یک روز قبل از تولدش با خانواده‌اش تماس گرفتند و گفتنند بیایید جسد را ببرید!\nبا مهرشادمان که سالم و سرحال و جوان و شاداب بود چه کردید؟ ما از خونش نمی گذریم",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/98578b750cd80e2a02a0acd092a6a21e4fabc134-1284x1486.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/98578b750cd80e2a02a0acd092a6a21e4fabc134-1284x1486.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/757e6f23408cf3df5278d1771df8053bf90b7be8-1284x1458.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/757e6f23408cf3df5278d1771df8053bf90b7be8-1284x1458.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-27T17:53:00.000Z",
+    "nameEn": "Mehrshad Shahidi",
+    "nameFa": "مهرشاد شهیدی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": ["https://www.instagram.com/cook.by.mehrshad/"]
+  },
+  {
+    "_createdAt": "2022-10-27T06:36:32Z",
+    "_id": "29cbef0c-36c0-408f-83ad-47cf67c58943",
+    "_updatedAt": "2022-11-01T09:29:03Z",
+    "arrestDate": null,
+    "birthDate": "2005-05-21T15:35:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/60e67a6b201a4c1ded3ea83e7b28389404f40a70-448x546.webp",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/60e67a6b201a4c1ded3ea83e7b28389404f40a70-448x546.webp"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/b66aad3db662b5e42703231ab50cb99147790772-446x549.webp",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/b66aad3db662b5e42703231ab50cb99147790772-446x549.webp"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-22T19:41:00.000Z",
+    "nameEn": "Arnika Ghaemmaghami",
+    "nameFa": "آرنیکا قائم مقامی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%A2%D8%B1%D9%86%DB%8C%DA%A9%D8%A7_%D9%82%D8%A7%D8%A6%D9%85_%D9%85%D9%82%D8%A7%D9%85%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-27T20:53:03Z",
+    "_id": "2be3c169-433d-4f6a-b03e-541096df97f3",
+    "_updatedAt": "2022-11-01T09:28:48Z",
+    "arrestDate": null,
+    "birthDate": "1999-09-20T20:50:00.000Z",
+    "descriptionEn": "23-year-old protester named Farjad Darvishi was killed by security forces during IranProtests in the Valiasr Town of Oroumiyeh in northwestern Iran, Kurdistan Human Rights Network reported.",
+    "descriptionFa": "شامگاه روز سه‌شنبه بیست و نهم شهریورماه، یک شهروند معترض به قتل حکومتی ژینا امینی به نام \"فرجاد درویشی\" ٢٣ سالە فرزند یونس اهل بالو ارومیه بر اثر شلیک نیروهای امنیتی جان خود را از دست داد.\n\nاین شهروند معترض در جریان تجمع اعتراضی در شهرک ولیعصر ارومیه بر اثر شلیک نیروهای امنیتی جان خود را از دست داده است.",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/9cf389eb8042c1547ffe7812ffacd955fd57a3d1-607x758.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/9cf389eb8042c1547ffe7812ffacd955fd57a3d1-607x758.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-20T20:51:00.000Z",
+    "nameEn": "Farjad Darwishi",
+    "nameFa": "فرجاد درویشی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://twitter.com/HengawO/status/1572308687909453824?s=20&t=-OrgcrpLJbEVQWsOLHLu8w"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T23:08:53Z",
+    "_id": "38db93a9-8e33-43c1-b26e-83e84ef0fde6",
+    "_updatedAt": "2022-11-01T09:30:22Z",
+    "arrestDate": null,
+    "birthDate": "2007-03-05T20:12:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/d3d05d374119e010b591703db45cbc0584439d14-400x356.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/d3d05d374119e010b591703db45cbc0584439d14-400x356.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-22T19:20:00.000Z",
+    "nameEn": "Asra Panahi",
+    "nameFa": "اسرا پناهی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D8%B1%D8%A7%D8%A1_%D9%BE%D9%86%D8%A7%D9%87%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T08:50:38Z",
+    "_id": "3cc5a987-ec5e-4515-bbf3-a83d02e44063",
+    "_updatedAt": "2022-11-01T08:50:38Z",
+    "arrestDate": "2022-10-31T14:50:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/bbfd984df2b2ffef608ed1e288bd666f0e228f2d-595x733.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/bbfd984df2b2ffef608ed1e288bd666f0e228f2d-595x733.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Marzieh Ziari",
+    "nameFa": "مرضیه زیاری",
+    "promote": false,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-25T05:59:19Z",
+    "_id": "3d2d580b-4501-4880-908d-b3deed04fece",
+    "_updatedAt": "2022-11-01T09:30:54Z",
+    "arrestDate": null,
+    "birthDate": "2000-09-20T20:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/a92dac1a91832e6e7e2218ada4496bf3b01b71e9-2000x1500.webp",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/a92dac1a91832e6e7e2218ada4496bf3b01b71e9-2000x1500.webp"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-22T17:01:00.000Z",
+    "nameEn": "Mahsa Amini",
+    "nameFa": "مهسا امینی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T19:57:59Z",
+    "_id": "49ff4787-178d-42b1-a05c-0c6be013824b",
+    "_updatedAt": "2022-11-01T09:27:58Z",
+    "arrestDate": "2022-10-05T21:50:00.000Z",
+    "birthDate": null,
+    "descriptionEn": "Mohammad Gholamzadeh, arrested on September 25th, 2022 by ministry of intelligence agents. He was transferred from Evin prison to Fashafouyeh prison on October 9th 2022. Mohammad is a doctorate student of Political Sociology at Tehran University.",
+    "descriptionFa": "محمد غلام‌زاده دانشجوی دکتری جامعه‌شناسی سیاسی دانشگاه تهران،یکشنبه ۳مهر توسط اطلاعات سپاه بازداشت و۱۶  مهر از اوین به زندان فشافویه منتقل شد. وی برای اعتراف اجباری،تحت فشار بوده و با وجود صدور قرار وثیقه، دادسرااز پذیرش امتناع کرده و پرونده را به شعبه‌ی  ۱۵قاضی صلواتی ارجاع داده است.",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/d2a9672e1978ecca38988b04f82c8d5215e75c3c-1027x1280.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/d2a9672e1978ecca38988b04f82c8d5215e75c3c-1027x1280.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Mohammad Gholamzadeh",
+    "nameFa": "محمد غلام زاده",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://twitter.com/1500tasvir_list/status/1585964710846791680?s=20&t=FQk51El0C3-RF9axvYZMKQ"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T07:17:44Z",
+    "_id": "4f309fb4-e80c-4980-85dd-a32562284c84",
+    "_updatedAt": "2022-11-01T09:26:19Z",
+    "arrestDate": null,
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/26fed05a899a0d1010fb8822389555d0863d2bf9-280x345.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/26fed05a899a0d1010fb8822389555d0863d2bf9-280x345.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-28T01:07:00.000Z",
+    "nameEn": "Fereshteh Ahmadi",
+    "nameFa": "فرشته احمدی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-27T00:16:49Z",
+    "_id": "68fcff03-00e0-4ab5-8029-0bd9a8a2b9eb",
+    "_updatedAt": "2022-11-01T09:29:21Z",
+    "arrestDate": "2022-10-09T00:12:00.000Z",
+    "birthDate": "2005-04-11T09:11:00.000Z",
+    "descriptionFa": "به گزارش رسانک روز شنبه ١۶ مهر ماه ١۴٠١، نیروهای لباس شخصی اداره اطلاعات شهرستان زاهدان یک نوجوان بلوچ را بازداشت و به مکانی نامعلوم منتقل کردند.\n\nبه گزارش رسانک هویت این شهروند بلوچ “حامد رودینی”، ١٧ ساله، فرزند مَلَنگ و اهل منطقه شیرآباد شهر زاهدان عنوان شده است.\n\nگفته می‌شود خانواده این نوجوان علیرغم پیگیری های مکرر موفق نشده اند از وضعیت و محل نگهداری دقیق وی خبری بدست بیاورند.",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/84152ff39bfaa80e34d17310dfa96e235bdfd42d-207x243.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/84152ff39bfaa80e34d17310dfa96e235bdfd42d-207x243.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Hamed Roudini",
+    "nameFa": "حامد رودینی",
+    "promote": false,
+    "status": "مفقود",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-25T06:02:34Z",
+    "_id": "81e904aa-c2e7-45a9-90b4-7e31c3e7d3fc",
+    "_updatedAt": "2022-11-01T09:30:46Z",
+    "arrestDate": null,
+    "birthDate": "2005-09-23T13:15:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/8e1a8fd4220a84c35bee2a1555f5ba632709b814-1600x1600.webp",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/8e1a8fd4220a84c35bee2a1555f5ba632709b814-1600x1600.webp"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-20T22:22:00.000Z",
+    "nameEn": "Nika Shakarami",
+    "nameFa": "نیکا شاکرمی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%86%DB%8C%DA%A9%D8%A7_%D8%B4%D8%A7%DA%A9%D8%B1%D9%85%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T07:36:46Z",
+    "_id": "884ea0b6-239d-42e4-930d-913ca630453e",
+    "_updatedAt": "2022-11-01T09:26:09Z",
+    "arrestDate": "2022-10-30T21:36:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/875478b0d458014c538667aa2cfc000fc9b6d1dd-471x533.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/875478b0d458014c538667aa2cfc000fc9b6d1dd-471x533.png"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Alireza Baradaran Shoraka",
+    "nameFa": "علیرضا برادران شرکا",
+    "promote": false,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-29T03:11:04Z",
+    "_id": "8b424a28-108a-4d84-8f81-4f28ffdc47b8",
+    "_updatedAt": "2022-11-01T09:27:19Z",
+    "arrestDate": "2022-09-27T05:16:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/4160163cfebe898630023837faeee0d491741005-518x680.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/4160163cfebe898630023837faeee0d491741005-518x680.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/69d79000ce3075d32a61eed885f96d002ef639c2-485x679.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/69d79000ce3075d32a61eed885f96d002ef639c2-485x679.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Elaheh Mohammadi",
+    "nameFa": "الهه محمدی",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%A7%D9%84%D9%87%D9%87_%D9%85%D8%AD%D9%85%D8%AF%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T06:35:38Z",
+    "_id": "8c314532-d748-47e9-b61f-873caaa84f00",
+    "_updatedAt": "2022-11-01T09:28:33Z",
+    "arrestDate": null,
+    "birthDate": "2008-08-13T15:31:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/63d417b090a6026dcaebed4ead1f4117282f202f-174x197.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/63d417b090a6026dcaebed4ead1f4117282f202f-174x197.png"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-30T20:40:00.000Z",
+    "nameEn": "Ali Barahooei",
+    "nameFa": "علی براهویی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%AC%D9%85%D8%B9%D9%87_%D8%AE%D9%88%D9%86%DB%8C%D9%86_%D8%B2%D8%A7%D9%87%D8%AF%D8%A7%D9%86"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-27T00:38:17Z",
+    "_id": "9672c204-fbf2-45d4-989f-eb7ef909aecd",
+    "_updatedAt": "2022-11-01T09:29:14Z",
+    "arrestDate": "2022-10-19T00:29:00.000Z",
+    "birthDate": "2001-10-18T20:36:00.000Z",
+    "descriptionEn": "20 y.o Armita Abbasi was brought to Imam Ali Hospital in Karaj with internal bleeding and indications of having been raped. She was kidnapped again by the security forces of the Islamic Republic before her family arrived.\nIt is said that she is held in Karaj prison.",
+    "descriptionFa": "آرمیتا_عباسی، دختر ۲۰ ساله در روز ۲۶ مهر ۱۴۰۱ توسط نیروهای امنیتی جمهوری اسلامی، در حال خونریزی داخلی و علائم حاکی از تجاوز، به بیمارستان امام علی کرج آورده شده و قبل از رسیدن خانواده ی وی از بیمارستان ربوده شده است. \nگفته شده آرمیتا در زندان کرج نگهداری میشود. ",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/99254f87a36087d565a9a15b14ec0439a63654b9-1276x873.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/99254f87a36087d565a9a15b14ec0439a63654b9-1276x873.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/7049ad715364feda2da0292bec1785617b4f118b-1080x1338.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/7049ad715364feda2da0292bec1785617b4f118b-1080x1338.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Armita Abbasi",
+    "nameFa": "آرمیتا عباسی",
+    "promote": false,
+    "status": "مفقود",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%A2%D8%B1%D9%85%DB%8C%D8%AA%D8%A7_%D8%B9%D8%A8%D8%A7%D8%B3%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T23:24:33Z",
+    "_id": "97bebf0c-a521-49f5-99f4-774f4b5980ba",
+    "_updatedAt": "2022-11-01T09:29:39Z",
+    "arrestDate": null,
+    "birthDate": "1995-10-03T21:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/7548fc8ad53e7567edd2996ce8efbfae3c3322bc-495x596.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/7548fc8ad53e7567edd2996ce8efbfae3c3322bc-495x596.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-21T23:24:00.000Z",
+    "nameEn": "Mohammad Hasan Torkaman",
+    "nameFa": "محمدحسن ترکمان",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF%D8%AD%D8%B3%D9%86_%D8%AA%D8%B1%DA%A9%D9%85%D8%A7%D9%86"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T07:06:28Z",
+    "_id": "9cc48b3d-e517-4081-bc53-7607a1c790da",
+    "_updatedAt": "2022-11-01T09:26:45Z",
+    "arrestDate": "2022-10-30T18:05:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/e63d950fd74a4877e74cf03e5f522733e13687d9-300x168.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/e63d950fd74a4877e74cf03e5f522733e13687d9-300x168.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Toomaj Salehi",
+    "nameFa": "توماج صالحی",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%AA%D9%88%D9%85%D8%A7%D8%AC_%D8%B5%D8%A7%D9%84%D8%AD%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T06:21:19Z",
+    "_id": "9d86329b-7a6f-498f-a546-71655bf124b7",
+    "_updatedAt": "2022-11-01T09:28:40Z",
+    "arrestDate": null,
+    "birthDate": "2004-03-15T07:51:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/080f3aa0a4abbc5c8d6c6d43cf3fa580b6347436-1568x1153.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/080f3aa0a4abbc5c8d6c6d43cf3fa580b6347436-1568x1153.png"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/378c56c16f630ef1172aeda1f84257084a5d7818-436x679.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/378c56c16f630ef1172aeda1f84257084a5d7818-436x679.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/ca7e42cf7785ee3a1e1ebd4c28630408378c0757-1573x1330.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/ca7e42cf7785ee3a1e1ebd4c28630408378c0757-1573x1330.png"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/62d7797fa77eeb4aa111102defed43312908fb54-1572x1382.png",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/62d7797fa77eeb4aa111102defed43312908fb54-1572x1382.png"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-24T04:22:00.000Z",
+    "nameEn": "Mehsa Mogoi",
+    "nameFa": "مهسا موگویی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://www.opindia.com/2022/09/iran-anti-hijab-protests-another-woman-mahsa-mogoi-killed-in-fight-for-freedom/"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T10:05:49Z",
+    "_id": "a0812a0c-20be-4eef-9ae6-4901c3140e14",
+    "_updatedAt": "2022-11-01T09:30:32Z",
+    "arrestDate": null,
+    "birthDate": "2006-07-03T05:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/95a20a8bdc4494b9cd539d36d631b48e269432ab-792x595.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/95a20a8bdc4494b9cd539d36d631b48e269432ab-792x595.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-23T10:05:00.000Z",
+    "nameEn": "Sarina Esmailzadeh",
+    "nameFa": "سارینا اسماعیل‌زاده",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D8%B1%DB%8C%D9%86%D8%A7_%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%DB%8C%D9%84%E2%80%8C%D8%B2%D8%A7%D8%AF%D9%87"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T07:31:31Z",
+    "_id": "b16a0164-f836-498e-a81e-3c110a5e942a",
+    "_updatedAt": "2022-11-01T09:26:00Z",
+    "arrestDate": "2022-10-31T15:31:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/9874fb5967fede067f0026efccc89902c88e14d1-573x576.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/9874fb5967fede067f0026efccc89902c88e14d1-573x576.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Marzieh Amiri",
+    "nameFa": "مرضیه امیری",
+    "promote": false,
+    "status": "زندانی",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-29T03:30:53Z",
+    "_id": "c337943c-e56b-4781-9fb8-0dfc685d468d",
+    "_updatedAt": "2022-11-01T09:26:54Z",
+    "arrestDate": "2022-10-16T09:34:00.000Z",
+    "birthDate": null,
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/b0d23473279129db7e1b396872b27e00829f0a22-720x1080.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/b0d23473279129db7e1b396872b27e00829f0a22-720x1080.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/c70ef9607c1e8980bcd6f3569ec1ada475363e9b-1170x1746.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/c70ef9607c1e8980bcd6f3569ec1ada475363e9b-1170x1746.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/044b654a48ff4069ed4d3891af3b5f6ad40df711-633x1280.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/044b654a48ff4069ed4d3891af3b5f6ad40df711-633x1280.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Nik Yousefi",
+    "nameFa": "نیک یوسفی",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%86%DB%8C%DA%A9_%DB%8C%D9%88%D8%B3%D9%81%DB%8C",
+      "https://nikyousefi.com"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T23:22:59Z",
+    "_id": "cf1401f6-3e91-46de-a77f-f9236cf9254a",
+    "_updatedAt": "2022-11-01T09:29:48Z",
+    "arrestDate": null,
+    "birthDate": "1989-09-21T23:18:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/a523ba55e0003c6e712a0ae3f63c5b5793cc1877-284x298.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/a523ba55e0003c6e712a0ae3f63c5b5793cc1877-284x298.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/fd8122a76e10ce7b7f153f90f672450ce2795aa9-250x303.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/fd8122a76e10ce7b7f153f90f672450ce2795aa9-250x303.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-21T23:20:00.000Z",
+    "nameEn": "Ghazaleh Chalabi",
+    "nameFa": "غزاله چلاوی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D8%BA%D8%B2%D8%A7%D9%84%D9%87_%DA%86%D9%84%D8%A7%D9%88%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T23:19:04Z",
+    "_id": "d2dba1a5-162c-4c77-9fde-821caaad7339",
+    "_updatedAt": "2022-11-01T09:29:53Z",
+    "arrestDate": null,
+    "birthDate": "1999-03-22T00:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/0cc9a69bbc71f169fad42d129bd7ea3d49257553-844x843.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/0cc9a69bbc71f169fad42d129bd7ea3d49257553-844x843.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-21T23:18:00.000Z",
+    "nameEn": "Hananeh Kia",
+    "nameFa": "حنانه کیا",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%DA%A9%D8%B4%D8%AA%D9%87%E2%80%8C%D8%B4%D8%AF%D9%86_%D8%AD%D9%86%D8%A7%D9%86%D9%87_%DA%A9%DB%8C%D8%A7"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-26T23:25:48Z",
+    "_id": "d9f3ea19-85e0-4ae7-85ca-baf796e0c619",
+    "_updatedAt": "2022-11-01T09:29:33Z",
+    "arrestDate": null,
+    "birthDate": "1960-03-21T20:10:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/c4b8f0075a3063f16c488ba56f6200cf2abdf4df-207x237.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/c4b8f0075a3063f16c488ba56f6200cf2abdf4df-207x237.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-20T23:25:00.000Z",
+    "nameEn": "Minoo Majidi",
+    "nameFa": "مینو مجیدی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%85%DB%8C%D9%86%D9%88_%D9%85%D8%AC%DB%8C%D8%AF%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-11-01T07:43:01Z",
+    "_id": "da4acc04-6154-4ef9-b9dd-ea20d4610804",
+    "_updatedAt": "2022-11-01T09:25:15Z",
+    "arrestDate": null,
+    "birthDate": "2007-05-25T07:40:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/d14ed499f478ed552907dad05ee1d0d26f641b0c-720x558.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/d14ed499f478ed552907dad05ee1d0d26f641b0c-720x558.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-27T02:41:00.000Z",
+    "nameEn": "Sarina Saedi",
+    "nameFa": "سارینا ساعدی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": null
+  },
+  {
+    "_createdAt": "2022-10-28T19:53:42Z",
+    "_id": "daa90147-6021-459d-a120-62a134e33ff4",
+    "_updatedAt": "2022-11-01T09:28:10Z",
+    "arrestDate": "2022-10-26T19:46:00.000Z",
+    "birthDate": "2020-10-26T19:46:00.000Z",
+    "descriptionEn": "Leili Karami, a Bahai citizen, was arrested in Shiraz . She was arrested and moved to Shiraz Ministry of Intelligence’s detention center . The security forces searched her house and confiscated her belongings. ",
+    "descriptionFa": " ماموران جمهوری اسلامی در ۴ آبان ۱۴۰۱ به منزل لیلی_کرمی شهروند بهایی در شیراز حمله کردند و پس از تفتیش خانه وسایل شخصی مثل موبایل و لپتاپش را ضبط کردند و او را به بازداشتگاه پلاک۱۰۰ منتقل کردند. ",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/efd02a09aa50643a55a808a09119ed47e6d07154-886x1080.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/efd02a09aa50643a55a808a09119ed47e6d07154-886x1080.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/16d5e3201813bd6dea496cb1dab7764c0d367351-832x1007.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/16d5e3201813bd6dea496cb1dab7764c0d367351-832x1007.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Leili Karami",
+    "nameFa": "لیلی کرمی",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://twitter.com/1500tasvir_list/status/1585978331459190784?s=20&t=FQk51El0C3-RF9axvYZMKQ"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-27T20:31:23Z",
+    "_id": "dc65a414-c0c4-4e0c-8382-404513ed3233",
+    "_updatedAt": "2022-11-01T09:28:59Z",
+    "arrestDate": null,
+    "birthDate": "2006-09-19T20:23:00.000Z",
+    "descriptionFa": "زکریا خیال ۱۶ ساله، بر اثر شلیک نیروهای سرکوبگر جمهوری اسلامی در اعتراضات پیرانشهر  در ۲۹ شهریور ۱۴۰۱، کشته شد. \nزکریا یکی از حداقل ۲۳ کودکی است که به گزارش عفو بین الملل در اعتراضات اخیر کشته شده اند. ",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/4b831f457d06f8fec935c4ee6e71611cfcb1dfd0-851x1171.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/4b831f457d06f8fec935c4ee6e71611cfcb1dfd0-851x1171.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-09-20T20:23:00.000Z",
+    "nameEn": "Zakaria Khial",
+    "nameFa": "زکریا خیال",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": [
+      "https://twitter.com/bbcpersian/status/1572636691093135365?s=20&t=yZ7IgmoN0FHbs0AhYyNzng"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T21:15:40Z",
+    "_id": "e760eccc-9796-4454-9bba-4d2c4a6fa7f5",
+    "_updatedAt": "2022-11-01T09:27:34Z",
+    "arrestDate": "2022-09-21T19:25:00.000Z",
+    "birthDate": "1992-10-22T21:22:00.000Z",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/8a6c2f5667eafa2c11ba7d35e2d0f395cc24ab3f-720x913.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/8a6c2f5667eafa2c11ba7d35e2d0f395cc24ab3f-720x913.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/1124403232665f5641b5533407b51cd795148fcf-960x540.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/1124403232665f5641b5533407b51cd795148fcf-960x540.jpg"
+        }
+      },
+      {
+        "asset": {
+          "path": "images/8xzre917/production/577743eb67b2878d98d39ad608e411b477db6308-1023x575.webp",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/577743eb67b2878d98d39ad608e411b477db6308-1023x575.webp"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": null,
+    "nameEn": "Niloofar Hamedi",
+    "nameFa": "نیلوفر حامدی",
+    "promote": false,
+    "status": "زندانی",
+    "urls": [
+      "https://fa.wikipedia.org/wiki/%D9%86%DB%8C%D9%84%D9%88%D9%81%D8%B1_%D8%AD%D8%A7%D9%85%D8%AF%DB%8C"
+    ]
+  },
+  {
+    "_createdAt": "2022-10-28T20:38:46Z",
+    "_id": "f5cb95ac-b412-40cd-aa38-0061717fff46",
+    "_updatedAt": "2022-11-01T09:27:41Z",
+    "arrestDate": null,
+    "birthDate": "2001-12-30T21:32:00.000Z",
+    "descriptionEn": "Milan Haghighi was born in Gothenburg, Sweden, on December 30, 2001.\nThe 21-year-old Iranian-Swedish from Oshnavieh, West Azerbaijan province was killed with three bullets  by the Islamic Republic of Iran's security forces.\nSalim Haghighi, father of Milan Haghighi said his son who was his only child had gone to the street to protest the murder of Mahsa Amini, but agents shot him dead!\nAccording to Milan’s father, Milan’s body was handed over to his family at 04:00 am, during which they were told that they had only one hour to carry out the funeral ceremony:\n“They threatened our family and said that no one should participate in the funeral, which should be the same as the mourning ceremony. This has always been the hideous policy of the Islamic Republic; when they execute or kill someone, they also disrespect the body and the family.”\n\n",
+    "descriptionFa": "میلان حقیقی ۲۱ ساله، در جریان اعتراضات اشنویه در ۳۱ شهریور ۱۴۰۱ با شلیک ماموران سرکوبگر جمهوری اسلامی کشته شد.",
+    "images": [
+      {
+        "asset": {
+          "path": "images/8xzre917/production/d04cb7477ce4dbda3209e439fd071ab376e7e477-750x375.jpg",
+          "url": "https://cdn.sanity.io/images/8xzre917/production/d04cb7477ce4dbda3209e439fd071ab376e7e477-750x375.jpg"
+        }
+      }
+    ],
+    "isReady": true,
+    "killedDate": "2022-10-21T20:32:00.000Z",
+    "nameEn": "Milan Haghighi",
+    "nameFa": "میلان حقیقی",
+    "promote": false,
+    "status": "کشته شد",
+    "urls": ["https://en.radiozamaneh.com/32735/"]
+  }
+]

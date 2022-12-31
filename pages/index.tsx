@@ -6,7 +6,8 @@ import Cards from "../components/Cards";
 import Header from "../components/Header";
 import SearchBox from "../components/SearchBox";
 import Translate from "../components/Translate";
-import { sanityApi } from "../helpers/api";
+// import { sanityApi } from "../helpers/api";
+import data from "../data/home.json";
 import useTranslate from "../hooks/useTranslate";
 
 type HomeProps = {
@@ -74,32 +75,36 @@ const Home: NextPage = ({ rawData }: HomeProps) => {
   );
 };
 
-const query =
-  encodeURIComponent(`*[_type=="person" && isReady==true] | order(promote desc) {
-  promote,
-  isReady,
-  _createdAt,
-  _id, 
-  _updatedAt,
-  birthDate,
-  status,  
-  nameFa,
-  arrestDate,
-  killedDate,
-  sloganFa,
-  urls,  
-  images[]{asset->{path,url}},
-  descriptionFa
-} `);
+// const query =
+//   encodeURIComponent(`*[_type=="person" && isReady==true] | order(promote desc) {
+//   promote,
+//   isReady,
+//   _createdAt,
+//   _id,
+//   _updatedAt,
+//   birthDate,
+//   status,
+//   nameFa,
+//   nameEn,
+//   arrestDate,
+//   killedDate,
+//   urls,
+//   images[]{asset->{path,url}},
+//   descriptionFa,
+//   descriptionEn
+// } `);
 
 export async function getStaticProps() {
-  const result = await sanityApi.get(`/data/query/production?query=${query}`);
-  if (result.status === 200) {
-    return { props: { rawData: result.data.result } };
-  }
-  return {
-    props: { props: { rawData: [] } }, // will be passed to the page component as props
-  };
+  return { props: { rawData: data } };
+  // const result = await sanityApi.get(`/data/query/production?query=${query}`);
+
+  // if (result.status === 200) {
+  //   console.log(JSON.stringify(result.data.result));
+  //   return { props: { rawData: result.data.result } };
+  // }
+  // return {
+  //   props: { props: { rawData: [] } }, // will be passed to the page component as props
+  // };
 }
 
 export default Home;
