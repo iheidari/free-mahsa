@@ -1,7 +1,7 @@
 import cities from "../fixtures/cities.json";
 import mapper from "./mapping";
 import { IData } from "./types";
-import { readDataCsvFile } from "./util";
+import { readDataCsvFile } from "./util/csv";
 import names from "../i18n/name.json";
 import { writeFile } from "fs/promises";
 

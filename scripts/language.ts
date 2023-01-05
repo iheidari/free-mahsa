@@ -1,6 +1,6 @@
 import { writeFile } from "fs/promises";
 import { translationType } from "../i18n/types";
-import { readTranslateCsvFile } from "./util";
+import { readTranslateCsvFile } from "./util/csv";
 import { detailsMapper, nameMapper } from "./mapping";
 import { translateType } from "./types";
 import all from "../data/output.json";

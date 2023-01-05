@@ -1,5 +1,5 @@
 import csv from "csvtojson";
-import { translateType } from "./types";
+import { translateType } from "../types";
 
 export const readDataCsvFile = async () => {
   let all = await csv().fromFile(`./data/data.csv`);
@@ -14,6 +14,7 @@ export const readDataCsvFile = async () => {
   }));
   return all;
 };
+
 function checkDataCsvKeys(keys: string[]) {
   if (
     keys[0] !== "ّنام و نام خانوادگی" ||
@@ -25,6 +26,19 @@ function checkDataCsvKeys(keys: string[]) {
     console.warn("Keys does not match(fa)");
   }
 }
+
+export const readKilledCsvFile = async () => {
+  let all = await csv().fromFile(`./data/killed.csv`);
+  all = all.map((item) => ({
+    name: item["نام"],
+    age: item["سن"],
+    city: item["مکان کشته‌شدن"],
+    killedDate: item["تاریخ کشته‌شدن"],
+    reason: item["علت مرگ"],
+    details: item["توضیحات"],
+  }));
+  return all;
+};
 
 export const readTranslateCsvFile = async (
   filename: "name" | "details"

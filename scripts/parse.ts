@@ -1,6 +1,6 @@
 import { writeFile } from "fs";
 import mapper from "./mapping";
-import { readDataCsvFile } from "./util";
+import { readDataCsvFile } from "./util/csv";
 
 const convert = async () => {
   let all = await readDataCsvFile();
