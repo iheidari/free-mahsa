@@ -125,6 +125,11 @@
     "provinceCode": "GI"
   },
   {
+    "nameFa": "اهر",
+    "nameEn": "Ahar",
+    "provinceCode": "AS"
+  },
+  {
     "nameFa": "اهواز",
     "nameEn": "Ahvaz",
     "provinceCode": "XU"
@@ -380,6 +385,11 @@
     "provinceCode": "AR"
   },
   {
+    "nameFa": "خمین",
+    "nameEn": "Khomein",
+    "provinceCode": "MR"
+  },
+  {
     "nameFa": "خمینی شهر",
     "nameEn": "Khomeini shahr",
     "provinceCode": "IS"
@@ -575,6 +585,11 @@
     "provinceCode": "SE"
   },
   {
+    "nameFa": "سمیرم",
+    "nameEn": "Semirom",
+    "provinceCode": "IS"
+  },
+  {
     "nameFa": "سنقر",
     "nameEn": "Sonqor",
     "provinceCode": "KS"
@@ -658,6 +673,11 @@
     "nameFa": "شهرکرد",
     "nameEn": "Shahr e Kord",
     "provinceCode": "CH"
+  },
+  {
+    "nameFa": "شهریار",
+    "nameEn": "Shariar",
+    "provinceCode": "TE"
   },
   {
     "nameFa": "شوش",
@@ -880,6 +900,11 @@
     "provinceCode": "GO"
   },
   {
+    "nameFa": "گناباد",
+    "nameEn": "Gonabad",
+    "provinceCode": "XR"
+  },
+  {
     "nameFa": "گناوه",
     "nameEn": "Ganaveh",
     "provinceCode": "BU"
@@ -930,6 +955,11 @@
     "provinceCode": "GI"
   },
   {
+    "nameFa": "لردگان",
+    "nameEn": "Lordegan",
+    "provinceCode": "CH"
+  },
+  {
     "nameFa": "لرستان",
     "nameEn": "Lorestan",
     "provinceCode": "LO"
@@ -968,6 +998,11 @@
     "nameFa": "محلات",
     "nameEn": "Mahallat",
     "provinceCode": "MR"
+  },
+  {
+    "nameFa": "محمودآباد",
+    "nameEn": "Mahmudabad",
+    "provinceCode": "MZ"
   },
   {
     "nameFa": "مراغه",
@@ -1068,6 +1103,11 @@
     "nameFa": "نیم ور",
     "nameEn": "Nimvar",
     "provinceCode": "MR"
+  },
+  {
+    "nameFa": "هرسین",
+    "nameEn": "Harsin",
+    "provinceCode": "KS"
   },
   {
     "nameFa": "هرمزگان",
