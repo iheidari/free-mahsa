@@ -1,15 +1,38 @@
 "fa","en"
+"",
 "۱۳ ساله","13-year-old"
+"۱۴ سال",
+"١٤ سال",
 "۱۴ ساله","14-year-old"
+"۱۴ ساله- دستگیریهای بلوچستان",
+"۱۵ سال",
+"١۵ سال",
+"۱۵ سال- دستگیریهای بلوچستان",
 "۱۵ ساله","15-year-old"
+"۱۵ ساله- دستگیریهای بلوچستان",
+"۱۶ سال",
+"١۶ سال",
+"١٦ سال",
 "۱۶ ساله","16-year-old"
 "۱۶ ساله، کانون اصلاح و تربیت","16-year-old, Youth detention center"
+"۱۶ساله",
+"۱۶ساله - دستگیریهای بلوچستان",
+"۱۶ساله- دستگیریهای بلوچستان",
+"۱۷ سال",
+"۱۷ سال کانون اصلا‌ح وتربیت زندان لاکان",
+"۱۷ سال- دستگیریهای بلوچستان",
 "۱۷ ساله","17-year-old"
 "۱۷ ساله کانون اصلا‌ح وتربیت زندان لاکان","17-year-old, Youth detention center of Lakaan Prison"
+"۱۷ ساله- دستگیریهای بلوچستان",
 "۱۸ آبان","November 9th, 2022"
+"١٨ سال",
+"۱۸ سال",
 "۱۸ ساله","18-year-old"
 "۱۸ ساله‌",
 "۱۸ ساله - زندان فشافویه","18-year-old, Fashafouyeh Prison"
+"۱۸ ساله- بازداشت در جوانرود- بازداشتگاه  اطلاعات سپاه کرمانشاه",
+"۱۸ ساله- دستگیریهای بلوچستان",
+"۱۹ سال",
 "۱۹ ساله","19-year-old"
 "۱۹ ساله - زندان فشافویه","19-year-old, Fashafouyeh Prison"
 "۲۰ ساله","20-year-old"
@@ -20,13 +43,16 @@
 "۳۲ ساله - زندان فشافویه","20-year-old, Fashafouyeh Prison"
 "آتشنشان","Firefighter"
 "آرایشگر","Hair stylist"
+"آشپز و اینفلوئنسر",
 "آهنگساز، تنظیم‌کننده موسیقی، سولیست باریتون و نوازنده پیانو",
 "ادمین چند کانال تلگرامی ورزشی","Admin of several sports telegram channels"
 "ارجاع به دادگاه ، قرچک","Referral to court, Qarchak"
 "از کرج به شیراز منتقل شد","He was transferred from Karaj to Shiraz"
+"استاد بازنشسته دانشگاه الزهرا، مربی بین‌المللی تای‌چی",
 "استاد دانشگاه الزهرا","Al-Zahra University professor"
 "استاد و مربی یوگای","Yoga teacher and instructor"
 "استادیار دانشگاه آزاد","Assistant Professor of Azad University"
+"استان گلستان",
 "اصفهان","Esfahan"
 "اقتصاددان","Economist"
 "اکباتان","Ekbatan"
@@ -37,6 +63,7 @@
 "اهل بهبهان",
 "اهل بوکان","From Bukan"
 "اهل سقز، سرباز در تهران","From Saqiz, Military service in Tehran"
+"اهل سنندج",
 "اهل کرمانشاه","From Kermanshah"
 "اهل گلستان",
 "اهل لرستان","From Lorestan"
@@ -46,6 +73,8 @@
 "اوین/ نقاش","Evin, Painter"
 "ایتالیایی","Italian"
 "ایرانی- آمریکایی","Irannian-American"
+"این شهروند پیشتر به محاربه متهم شده بود",
+"اینفلوئنسر اینستاگرام",
 "اینفلونسر اینستاگرام","Instagram Influencer"
 "بازداشت با ضرب و شتم","Arrest by beating"
 "بازداشت دوباره","Re-arrest"
@@ -104,11 +133,13 @@
 "تتوکار","Tattoo artist"
 "تجمع مقابل بیمارستان سینا برای حسین رونقی","Gathering in front of Sinai Hospital for Hossein Ronagi"
 "تدوین گر ، فیلمساز",
+"تسهیلگر کودکان و زنان سرپرست خانوار",
 "تنها زن یونی سایکلیست ایران","Iran's only female unicyclist"
 "تهییه کننده موسیقی","Music producer"
 "جامعه شناس، ایرانگرد","Sociologist, Iranian traveller"
 "جامعه‌شناس","Sociologist"
 "حدالقل ۴۰ ساچمه خورده","Hit by at least 40 shot gun bullets"
+"خبرنگار",
 "خبرنگار حوزه کارگری ایلنا","Ilana labor reporter"
 "خبرنگار خبرگزاری ایرنا","Reporter of IRNA news agency"
 "خبرنگار صداوسیما","IRIB reporter"
@@ -126,6 +157,7 @@
 "خودکشی پس از آزادی","Suicide after release"
 "دارای معلولیت از ناحیه دست راست","Has a disability in the right hand"
 "دانش آموخته جغرفیای سیاسی","Graduated in political geography"
+"دانش آموختە رشتە حقوق",
 "دانش آموز","Student"
 "دانش آموز ۱۵ ساله","15-year-old student"
 "دانش آموز مدرسه پژوهش","Pajouhesh school student"
@@ -249,6 +281,8 @@
 "دانشگاه علوم و تحقیقات","University of Science and Research"
 "دانشگاه فردوسی مشهد","Mashhad Ferdowsi University"
 "دانشگاه فرهنگیان","Farhangiyan University"
+"دانشگاه فرهنگیان زاهدان",
+"دانشگاه فرهنگیان شهید بهشتی",
 "دانشگاه فنی حرفه ای دخترانه کرمانشاه","Kermanshah Technical Vocational University for Girls"
 "دانشگاه فنی شمسی‌پور تهران","Shamsipour University of Technology, Tehran"
 "دانشگاه قدسیه ساری","Qodsieh University of Sari"
@@ -269,6 +303,7 @@
 "دانشگاه همدان","Hamedan University"
 "دانشگاه هنر","Art university"
 "دانشگاه هنر اسلامی تبریز","Islamic Art University of Tabriz"
+"دانشگاه هنر اصفهان",
 "دانشگاه هنر تبریز","Tabriz University of Art"
 "دانشگاه هنر تهران","Tehran University of Art"
 "دانشگاه هنر سوهانک","Sohank University of Art"
@@ -280,6 +315,7 @@
 "دبیر حزب کارگزاران استان بوشهر","Secretary of Kargozaran Party, Bushehr Province"
 "دبیر ریاضی","Math teacher"
 "دبیر ریاضی و از اعضای کانون معلمان خمینی شهر","Mathematics teacher and a member of the Khomeini Shahr's teachers association"
+"دبیر سیاسی روزنامه اعتماد",
 "دبیرستان جوشن","Joshan High School"
 "دبیرکل کانون صنفی معلمان","Secretary General of Teachers Union"
 "در بازار تهران دستگیر شده","Arrested in Tehran Bazar"
@@ -297,6 +333,7 @@
 "دستگیرشده در باغ سپهسالار تهران","Arrested in Sepehsalar Garden, Tehran"
 "دستگیرشده در مراسم چهلم آیلار حقی",
 "دستگیری در اکباتان","Arrest in Ekbatan"
+"دستگیریهای بلوچستان",
 "دکتر داروساز","Pharmacist"
 "دندانپزشک","Dentist"
 "دوست دختر بهنام لایق پور","Girlfriend of Behnam Laikpour"
@@ -342,6 +379,7 @@
 "ساکن تهران","A resident of Tehran"
 "ساکن رشت بازداشت تهران","A resident of Rasht, detained in Tehran"
 "سخنگوی شورای هماهنگی معلمان","Spokesperson of the Teachers Coordination Council"
+"سرآشپز",
 "سردبیر نشریه تالش","Editor of Taalesh magazine"
 "سنگ نورد- در زندان اوین","Rock climber - in Evin prison"
 "سیستان و بلوچستان / ۱۷ آبان","Sistan and Baluchistan / November 08"
@@ -355,6 +393,7 @@
 "شاعر و فعال مدنی","Poet and civil activist"
 "شاعر و مسئول انجمن شعر و ادب ماسال","Poet and head of poetry and literature association"
 "شاعر و نویسنده","Poet and Writer"
+"شاعر و نویسنده اهل کرمانشاه",
 "شاعر، نمایشنامه نویس و کارگردان تاتر","Poet, Screen writer and Theater director"
 "شهرک گویم شیراز","Goyim town of Shiraz"
 "شهروند اسپانیا","Spain Citizen"
@@ -385,6 +424,7 @@
 "فارغ التحصیل دانشگاه تهران","Graduated from Tehran University"
 "فارغ التحصیل دانشگاه شریف- زندان فشافویه","Graduated from Sharif University - Fashafuye Prison"
 "فارغ التحصیل رشته عکاسی",
+"فارغ التحصیل رشته مکانیک",
 "فارغ التحصیل طراحی پارچه از دانشگاه تهران","Graduated in textile design from Tehran University"
 "فرانسوی","French"
 "فرزند : احمد","Dad: Ahmed"
@@ -404,6 +444,7 @@
 "فعال حقوق کودکان","Child Rights Activist"
 "فعال حقوق معلمان","Teacher rights activist"
 "فعال حوزه گردشگری","Active in the field of tourism"
+"فعال حوزه‌ی چاپ",
 "فعال زاینده رود",
 "فعال زیست‌محیطی","Environment Activist"
 "فعال صنفی","Union activist"
@@ -417,6 +458,7 @@
 "فعال محیط زیست","Environment Activist"
 "فعال مدنی","Civil Activist"
 "فعال مدنی و ادبی کُرد","Kurdish Civil and Literary activist"
+"فعال مدنی و دانشجوی دانشگاه پیام نور",
 "فعال مدنی و کنشگر محیط زیست","Civil activist and environmental activist"
 "فعال مدنی و متخصص تکنولوژی","Civil Activist and IT expert"
 "فعال یارسان","Yarsan(Religious minority) activist"
@@ -441,7 +483,9 @@
 "کارگردان  و هنرمند","Director and Artist"
 "کارگردان تئاتر","Theater director"
 "کارگردان و بازیگر تئاتر","Theater director and artist"
+"کارمند استانداری کردستان و مهندس",
 "کارمند رادیولوژی بیمارستان بهمن",
+"کاریکاتوریست",
 "کانون اصلاح و تربیت - ۱۹ ساله و بازداشت دوم","Youth Justice Custody Facility- 19 years old and second arrest"
 "کانون وکلای فارس","Fars Bar Association"
 "کلام خوان آیینی یارسان","Yaresan's ritual reciter"
@@ -449,6 +493,7 @@
 "کنشگر دسترسی به اینترنت","Internet Activist"
 "کودک","Minor"
 "کوهنورد","Mountain Climber"
+"گرافیست",
 "گرافیست و مربی اسکی شیرازی","Graphist and Ski instructor"
 "مادر نیلوفر لطفیان- زندان اطلاعات ساری","Niloufar Lotfian's mother- Saari Etelaat prison"
 "مازندران","Mazandaran"
@@ -468,11 +513,14 @@
 "مدیر اجرایی گروه چارتار","Executive Director of Chartar Music Group"
 "مدیر ارشد امنیت شبکه و تحلیل داده شرکت ایرانسل","Senior Manager of Network Security and Data Analysis of Irancell Company"
 "مدیر روابط عمومی دیجی کالا","Public relations manager of Digikala"
+"مدیر شرکت آی تی",
 "مدیر کانال خبری ایران تایمز و سایت مبین۲۴","Manager of Iran Times news channel and Mobeen24 site"
 "مدیر مسئول پایگاه خبری جامعه آنلاین","COO for Jame'e Online news site"
+"مدیرمسئول سایت خبری دیده بان ایران،",
 "مربی سنگنوردی","Climbing instructor"
 "مربی سنگنوردی در اصفهان دستگیر شده و به شیراز منتقل شده",
 "مربی فدراسیون اسکیت","Skate Federation coach"
+"مربی کاراته و بدنسازی",
 "مربی کوهنوردی و ورزشکار",
 "مربی و بازیکن راگبی","Rugby coach and player"
 "مربی والیبال-زندان خورین پاکدشت","Volleyball coach - Khorin Pakdasht prison"
@@ -494,7 +542,8 @@
 "موسسه آموزش عالی حکمت رضوی","Hikmat Razavi Institute of Higher Education"
 "نانوا","Baker"
 "نقاش","Painter"
-"نوازنده تار و سه تار",
+"نقاش و شاعر",
+"نوازنده تار و سه تار- خواننده",
 "نوازنده گیتار","Guitarist"
 "نوازنده نی","reed player"
 "نوازنده و آهنگساز","Musician and composer"

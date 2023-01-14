@@ -295,6 +295,11 @@
     "provinceCode": "XR"
   },
   {
+    "nameFa": "ترکمن ده",
+    "nameEn": "Dehtorkaman",
+    "provinceCode": "TE"
+  },
+  {
     "nameFa": "ترکمن صحرا",
     "nameEn": "Turkmen Sahra",
     "provinceCode": "GO"
@@ -338,6 +343,11 @@
     "nameFa": "جوانرود",
     "nameEn": "Javanrud",
     "provinceCode": "KS"
+  },
+  {
+    "nameFa": "جیرفت",
+    "nameEn": "Jiroft",
+    "provinceCode": "KE"
   },
   {
     "nameFa": "چابهار",
@@ -428,6 +438,11 @@
     "nameFa": "دزفول",
     "nameEn": "Dezful",
     "provinceCode": "XU"
+  },
+  {
+    "nameFa": "دلند",
+    "nameEn": "Deland",
+    "provinceCode": "GO"
   },
   {
     "nameFa": "دهدشت",
@@ -950,6 +965,11 @@
     "provinceCode": "XU"
   },
   {
+    "nameFa": "لامرد",
+    "nameEn": "Lamerd",
+    "provinceCode": "FA"
+  },
+  {
     "nameFa": "لاهیجان",
     "nameEn": "Lahijan",
     "provinceCode": "GI"
@@ -1030,6 +1050,11 @@
     "provinceCode": "AR"
   },
   {
+    "nameFa": "ملایر",
+    "nameEn": "Malayer",
+    "provinceCode": "HA"
+  },
+  {
     "nameFa": "ملک شهر",
     "nameEn": "Malek shahr",
     "provinceCode": "IS"
@@ -1078,6 +1103,11 @@
     "nameFa": "نقده",
     "nameEn": "Naqadeh",
     "provinceCode": "AQ"
+  },
+  {
+    "nameFa": "نکا",
+    "nameEn": "Neka",
+    "provinceCode": "MZ"
   },
   {
     "nameFa": "نورآباد ممسنی",
